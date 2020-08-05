@@ -1,0 +1,795 @@
+@media only screen and (min-width: 480px){
+    .menu-item-has-children:hover ul {
+      display: block !important;
+    }
+  }
+  @media only screen and (min-width : 480px) and (max-width : 768px){
+    .inner-padding-left {
+      padding: 30px !important;
+    }
+    #language-switcher {
+      position: absolute;
+      right: 30px;
+    }
+    .arrival-image {
+      width: 100%;
+      /*height: 250px;*/
+    }
+    .site-branding .menu-toggle {
+      left: 25px;
+    }
+    .vc_empty_space.extra-space {
+      height: 60px !important;
+    }
+    .no-margin .wpb_single_image {
+      margin-bottom: 0 !important;
+    }
+    a.slider-btn {
+      padding: 10px 15px 8px !important;
+    }
+    .button-wrapper {
+      margin-top: 15px !important;
+    }
+    .reposition .wpb_single_image {
+      text-align: center !important;
+    }
+    .wrapper-container, #copyright-footer {
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+    .fullwidth {
+      width: 100% !important;
+    }
+    #sub-banner {
+      background-attachment: scroll;
+    }
+    .container {
+      width: 100% !important;
+    }
+    .no-margin {
+      padding: 0 9%;
+    }
+    .inner-padding-left {
+      padding: 0px 0px 30px 50px !important;
+    }
+    .inner-padding-right {
+      padding: 30px 50px 0px 0px !important;
+    }
+  
+  }
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .main-navigation li {
+      margin: 0 5px;
+    }
+    .arrival-image {
+      flex-basis: 50%;
+    }
+    .arrival-content-wrapper {
+      flex-basis: 50%;
+    }
+    .vc_column_container.vc_col-sm-6 {
+      flex-basis: 50%;
+    }
+    .inner-padding {
+      padding: 25px !important;
+    }
+    #rolex-retailer-clock-block {
+      display: none;
+    }
+  }
+  @media only screen and (min-width : 992px) and (max-width : 1500px) {
+    .content-wrapper h1{
+      font-size: 40px;
+  
+    }
+    /* .content-wrapper.content-left {
+    padding-right: 50%;
+  }
+  .content-wrapper.content-right {
+  padding-left: 50%;
+  } */
+  }
+  @media only screen and (min-width : 769px) and (max-width : 991px) {
+    .content-wrapper h1{
+      font-size: 35px;
+    }
+    /* .content-wrapper.content-left {
+    padding-right: 50%;
+  }
+  .content-wrapper.content-right {
+  padding-left: 50%;
+  } */
+  }
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    .desktop-slider {
+      display: block;
+    }
+    .mobile-slider {
+      display: none;
+    }
+    .arrival-image {
+      width: 50%;
+    }
+    .arrival-content-wrapper {
+      width: 50%;
+    }
+    .vc_column_container.vc_col-sm-6 {
+      flex-basis: 50%;
+    }
+    div#sub-banner {
+      padding: 25px 9%;
+    }
+    #copyright-footer .copyright {
+      text-align: center;
+    }
+    #copyright-footer .social-media {
+      text-align: center;
+    }
+  
+  }
+  @media only screen and (min-width : 480px) and (max-width : 1024px){
+    #experience-rolex{
+      margin-top: 40px;
+    }
+    #desktop-banner {
+      height: 200px;
+    }
+    ul#keep-exploring-item h5 a {
+      font-size: 12px;
+    }
+    .watch-content {
+      margin-top: 15px;
+    }
+    .watch-image img {
+      transform: scale(1.2);
+    }
+    #rolex-collection .col-6 {
+      padding: 0;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    h1, h2, h3, h4, h5 {
+      letter-spacing: 0.05em;
+    }
+    .intro-text h2 {
+      margin-bottom: 16px;
+    }
+    .intro-text h4 {
+      margin-bottom: 8px;
+    }
+    #rolex-collection .col-md-4 {
+    }
+    #rolex-collection .watch-content, #rolex-collection .watch-content a {
+      font-size: 14px;
+    }
+    .video-content {
+      padding: 40px;
+      width: 100%;
+    }
+    .video-content h3 {
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 28px;
+    }
+    #visit-us .wpb_wrapper {
+      width: 100%;
+      max-width: 1024px;
+    }
+    .rolex-btn-wrapper a, .rolex-btn {
+      padding: 13px 20px !important;
+      font-size: 10px !important;
+    }
+    .keep-exploring-inner-wrapper {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .list-image {
+      padding-top: 75%;
+    }
+    ul#keep-exploring-item h5 {
+      font-size: 14px;
+      padding-right: 5px;
+    }
+    .owl-nav.disabled {
+      display: none;
+    }
+    #keep-exploring-row {
+      margin-bottom: 30px;
+    }
+    .rolex-footer-nav {
+      order: 1;
+      border: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .rolex-logo-footer {
+      order: 2;
+    }
+    .rolex-footer-backtop {
+      order: 3;
+    }
+    .rolex-footer-nav li {
+      width: 100%;
+      margin: 0;
+      height: 40px;
+      line-height: 40px;
+      border-top: #e1e1e1 1px solid;
+      border-bottom: #e1e1e1 1px solid;
+    }
+    .rolex-footer-nav li a {
+      font-size: 14px;
+    }
+    button.menu-toggle.active:after {
+      content: '\f106';
+    }
+    #footer-menu {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+    #footer-navigation li {
+      margin-right: 0px !important;
+    }
+    div#copyright-footer {
+      text-align: center;
+    }
+    .social-media {
+      text-align: center;
+    }
+    .site-header.fixed .site-branding.container {
+      opacity: 1;
+      height: auto;
+    }
+    #primary-menu li a {
+      letter-spacing: 1px;
+      font-size: 10px;
+    }
+    .topbar {
+      margin-bottom: 35px;
+    }
+    .logo-container {
+      -ms-flex-align: center!important;
+      align-items: center!important;
+      margin-bottom: 35px;
+    }
+    .rolex-header-logo {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .rolex-menu {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  
+    .rolex-navigation li a {
+      letter-spacing: 0;
+    }
+  
+    .rolex-menu-container li {
+      margin-left: 15px;
+    }
+  
+    .rolex-menu-container li:nth-child(1) {
+      margin-left: 0px;
+    }
+  
+    .rolex-navigation {
+      -ms-flex-pack: center!important;
+      justify-content: center!important;
+    }
+    #copyright-footer .col-md-6 {
+      margin-left: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    #copyright-menu li a {
+      font-size: 12px;
+      letter-spacing: 0;
+    }
+  
+    .copyright-text {
+      font-size: 12px;
+      letter-spacing: 0;
+    }
+  }
+  @media (max-width: 480px){
+    .site-menu-button{
+      display: block;
+    }
+    .site-menu-button {
+      background-image: url(ngg_menu.png);
+      width: 25px;
+      height: 14px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    #welcome-rolex .vc_col-sm-1 {
+      display: none;
+    }
+    #welcome-rolex .vc_column-inner, #experience-rolex .vc_column-inner{
+      padding-top: 0px !important;
+    }
+    #welcome-rolex {
+      padding-bottom: 40px !important;
+      padding-top: 40px !important;
+    }
+    #desktop-banner {
+      display: none !important;
+    }
+    #mobile-banner {
+      display: block;
+    }
+    #footer-navigation {
+      display: none !important;
+    }
+    .new-arrival-item {
+      flex-direction: column;
+    }
+    .arrival-content-wrapper h3 {
+      font-size: 20px;
+    }
+    .iframe-box .vc_column-inner {
+      padding: 0px !important;
+    }
+    /* body:lang(th) p br {
+    display: none;
+    } */
+    .desktop-slider {
+      display: none;
+    }
+    .mobile-slider {
+      display: block;
+    }
+    .vc_empty_space.extra-space {
+      height: 40px !important;
+    }
+    .inner-padding-right {
+      border-top: #ddd solid 1px;
+    }
+    .no-margin {
+      padding: 0 20px;
+    }
+  
+    .inner-padding-left {
+      padding: 0 !important;
+    }
+    #language-switcher {
+      position: absolute;
+      right: 20px;
+    }
+  
+    .button-wrapper {
+      justify-content: center;
+      -ms-flex-pack: center;
+      margin-top: 10px;
+    }
+  
+    div#exploring h5 {
+      text-align: center !important;
+      margin: 25px 0 !important;
+    }
+    h1 {
+      font-size: 30px !important;
+    }
+    h2 {
+      font-size: 32px !important;
+    }
+    .no-margin h2, .no-margin p {
+      text-align: center !important;
+    }
+    .no-margin .wpb_single_image {
+      margin-bottom: 35px;
+    }
+    .fullwidth {
+      width: 100% !important;
+    }
+    .arrival-image {
+      width: 100%;
+    }
+    .arrival-content-wrapper{
+      width: 100%;
+      padding: 25px;
+    }
+    .site-logo {
+      width: 150px;
+    }
+    .menu-toggle {
+      color: #FFF !important;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    #sub-banner {
+      height: 250px !important;
+      padding: 25px;
+      background-attachment: scroll;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center !important;
+    }
+    #sub-banner h2 {
+      font-size: 20px !important;
+    }
+    .reposition p, .reposition h3, .reposition {
+      text-align: center !important;
+    }
+    .vc_empty_space {
+      height: 25px !important;
+    }
+    .inner-padding-right, .inner-padding-left {
+      padding: 25px !important;
+    }
+    .new-arrival-item {
+      flex-wrap: wrap;
+      flex-basis: 100%;
+    }
+    .arrival-content-wrapper h2 {
+      font-size: 30px;
+    }
+    #exploring .wpb_single_image img {
+      width: 100%;
+    }
+  
+    #copyright-footer .social-media {
+      text-align: center;
+    }
+    .copyright {
+      text-align: center;
+    }
+    .rolex-header-logo .mobile-menu-toggle-wrapper {
+      width: 100%;
+      text-align: right;
+    }
+  
+    .rolex-logo-img {
+      padding: 0;
+    }
+  
+    .wrapper-container, #copyright-footer {
+      padding: 0;
+    }
+    .mobile-menu-toggle {
+      font-weight: 500;
+      font-size: 15px;
+      color: #212121 !important;
+      font-family: 'Helvetica',sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all ease 0.3s;
+    }
+    a.mobile-menu-toggle:after {
+      content: '\f107';
+      font-family: 'fontawesome';
+      font-size: 20px;
+      line-height: 20px;
+      transition: all ease 0.3s;
+      margin-left: 8px;
+    }
+    .mobile-menu-toggle{
+      display: inline-block;
+    }
+    .rolex-header-logo {
+      -ms-flex-align: center!important;
+      align-items: center!important;
+      display: -ms-flexbox!important;
+      display: flex!important;
+    }
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .rolex-menu{
+      display: none;
+    }
+    .rolex-menu {
+      position: absolute;
+      top: 84px;
+      background-color: #FFF;
+      z-index: 9;
+      width: 100%;
+      left: 0;
+      padding: 0;
+    }
+  
+  
+    #rolex-menu li:not(.wpml-ls-item) {
+      width: 100%;
+      text-align: center;
+      border-top: 1px solid #e6e6e6;
+      margin: 0;
+    }
+  
+    header#rolex-main-navigation {
+      position: relative;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  
+    .rolex-navigation li:not(.wpml-ls-item) a {
+      height: 40px;
+      display: inline-block;
+      width: 100%;
+    }
+  
+    .rolex-button a {
+      border: 0;
+      padding: 0;
+      color: #212121 !important;
+      border-bottom: 1px solid #e6e6e6;
+      border-radius: 0 !important;
+    }
+  
+  
+    .rolex-menu-container li.wpml-ls-item {
+      width: 50%;
+      margin: 0;
+      text-align: right;
+      border-bottom: 1px solid #e6e6e6;
+    }
+  
+    .rolex-menu-container li.wpml-ls-last-item {
+      text-align: left;
+    }
+  
+    .wpml-ls-last-item:before {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .topbar {
+      display: none !important;
+    }
+    .topbar {
+      display: none !important;
+    }
+    #primary-menu li {
+      width: 100%;
+      border-top: 1px solid #EEE;
+    }
+  
+    ul#primary-menu {
+      width: 310px!important;
+      margin: 0 auto;
+      margin-top: 30px!important;
+      display: block;
+    }
+  
+    #primary-menu li a {
+      padding: 14px 5px!important;
+    }
+  
+    #primary-menu li:nth-last-child(1) {
+      border-bottom: 1px solid #EEE;
+    }
+  
+    .retailer-watch.text-md-right {
+      display: none;
+    }
+    .menu-main-navigation-container {
+      width: 100%;
+    }
+  
+    .main-navigation-inner {
+      -ms-flex-direction: column!important;
+      flex-direction: column!important;
+      padding-bottom: 0;
+    }
+  
+    .retailer-watch.mobile {
+      text-align: center;
+      width: 100%;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      display: block;
+    }
+  
+    .retailer-watch.mobile .rolex_frame {
+      margin: 0 auto;
+    }
+    nav.main-navigation {
+      display: none;
+    }
+  
+    .logo-container {
+      padding: 20px 0;
+    }
+    .logo-img {
+      position: relative;
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 0;
+    }
+  
+    header#masthead {
+      background-image: url(/img/topbar.jpg) !important;
+    }
+    #experience-rolex {
+      margin-top: 0;
+    }
+  
+    .intro-text.wpb_text_column.wpb_content_element {
+      margin-top: 35px !important;
+      width: 100%;
+    }
+  
+    #welcome-rolex {
+      padding-bottom: 0 !important;
+      padding-top:10px !important;
+    }
+    #experience-rolex {
+      margin-top: 0;
+    }
+  
+    #welcome-rolex {
+      padding-bottom: 0 !important;
+      padding-top:10px !important;
+  
+    }
+  
+    h4.footer-col-title:after {
+      content: '\f107';
+      font-family: 'fontawesome';
+      font-size: 20px;
+      transition: all ease 0.3s;
+      position: absolute;
+      right: 0;
+      margin: 0;
+      top: 0 !important;
+      line-height: 12px;
+      padding: 10px 0;
+    }
+  
+    .footer-col-title {
+      position: relative;
+      padding: 10px 0;
+    }
+  
+    .footer-col-title + ul {
+      display: none;
+    }
+    .toggle-more-btn {
+      display: none !important;
+    }
+  
+    .more-items {
+      display: block !important;
+    }
+    .social-box ul {
+      -ms-flex-pack: center!important;
+      justify-content: center!important;
+    }
+  
+    footer#copyright-footer {
+      padding: 15px 0;
+    }
+  
+    #copyright-menu li:before {
+      display: none;
+    }
+    .footer-col-title {
+      pointer-events: auto !important;
+    }
+    p.collection-desc {
+      font-size: 10px;
+    }
+    .watch-content {
+      padding: 0 15px;
+    }
+    .keep-exploring-inner-wrapper {
+      padding: 0 !important;
+      max-width: 100% !important;
+    }
+  
+    .main-navigation ul ul {
+      position: relative;
+      left: unset;
+      top: unset;
+      width: 100%;
+      background-color: transparent;
+      box-shadow: none;
+      border-top: 0px;
+    }
+    .main-navigation ul ul li:nth-last-child(1){
+      border-bottom: 0px !important;
+    }
+    #primary-menu .sub-menu li > a {
+      width: 100%;
+      color: #FFF;
+      line-height: 22px;
+      padding: 14px 30px !important;
+      color: #000000;
+   
+      text-transform: uppercase;
+      -webkit-transition: margin .4s ease, padding .4s ease;
+      -o-transition: margin .4s ease, padding .4s ease;
+      transition: margin .4s ease, padding .4s ease;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+    .video-content-wrapper > .vc_column-inner {
+      padding: 35px !important;
+    }
+    .video-content {
+      width: 100%;
+    }
+    .rolex-footer-nav li {
+      width: 100%;
+      margin: 5px 0 !important;
+    }
+    #social-footer h4:after {
+      display: none;
+    }
+    .copyright-text {
+      font-size: 11px;
+      margin-bottom: 10px;
+    }
+    #copyright-menu li a {
+      font-size: 11px;
+    }
+    span.new-line {
+      display: block;
+    }
+    #keep-exploring-row .vc_column-inner {
+      padding: 0;
+    }
+    .rolex-footer-nav li {
+      width: 100%;
+      margin: 0 !important;
+      height: 40px;
+      line-height: 40px;
+      border-top: 1px solid #e6e6e6;
+    }
+    .rolex-footer-nav {
+      padding: 0 !important;
+      border-top: 0;
+      border-bottom: #e6e6e6 1px solid;
+    }
+    img.list-img-desktop {
+      display: none;
+    }
+    .watch-image img{
+      transform: scale(1.1);
+    }
+    img.list-img-mobile {
+      display: block;
+  }
+    .rolex-logo-footer {
+      order: 1;
+    }
+    .rolex-footer-backtop {
+      order: 2;
+    }
+    .rolex-logo-footer img {
+      max-width: 80px;
+    }
+    .rolex-menu-container li.wpml-ls-item a {
+      padding: 0 15px;
+    }
+    #rolex-collection {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .watch-content a {
+      font-size: 12.6px;
+    }
+    .watch-item {
+      padding: 0;
+    }
+  }

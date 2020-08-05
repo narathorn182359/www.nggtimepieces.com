@@ -1,0 +1,183 @@
+.text-head{
+    font-size: 48px
+}
+
+
+
+
+.br{
+    display: none;
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url("/ngg/images/parallax_1.jpg");
+  
+    /* Set a specific height */
+    min-height: 250px; 
+  
+    /* Create the parallax scrolling effect */
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.cta_rolex {
+    /*background-color: white;*/
+      background-color: #17794F;
+    border: none;
+    border-radius:28px;
+
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.img-num {
+    float: left;
+    position: absolute;
+    width:500px;
+z-index:10;
+color:rgb(0, 0, 0);
+text-align:center;
+top:47%;
+left: 45%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+.infomation {
+    float: left;
+    position: absolute;
+    width:500px;
+z-index:10;
+color:rgb(0, 0, 0);
+
+top:50%;
+left: 57%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+
+.img-info{
+    border-radius: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .infomation {
+        float: left;
+        position: absolute;
+        width:500px;
+    z-index:10;
+    color:rgb(0, 0, 0);
+    
+    top:50%;
+    left: 10%;
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
+    }
+
+
+
+}
+@media only screen and (max-width: 600px) {
+
+
+
+    .br{
+        display: block;
+    }
+    
+    .text-head{
+        font-size: 18px
+    }
+.img-num  {
+    width:500px;
+    z-index:10;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    top:47%;
+    left: 3%;
+    bottom:auto;
+    -webkit-transform:translate(0, -50%);
+    -ms-transform:translate(0, -50%);
+    transform:translate(0, -50%);
+    }
+    .text-head{
+        font-size: 18px
+    }
+    .btn-size{
+        font-size: 11px
+    }
+    .de{
+        visibility: hidden;
+    }
+
+
+    .cta_rolex {
+        /*background-color: white;*/
+          background-color: #17794F;
+        border: none;
+        border-radius:28px;
+        color: white;
+        padding: 5px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 36%;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        width: 25%;
+    }
+    
+    
+}
+
+
+.card_bu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 200px;
+  }
+
+
+
+
+
+
+

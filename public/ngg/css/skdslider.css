@@ -1,0 +1,99 @@
+
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-caption {
+	width:500px;
+	z-index:10;
+	color:rgb(0, 0, 0);
+	text-align:center;
+	top:47%;
+	left: 45%;
+	bottom:auto;
+	-webkit-transform:translate(0, -50%);
+	-ms-transform:translate(0, -50%);
+	transform:translate(0, -50%);
+	}
+	.text-head{
+		font-size: 48px
+	}
+
+
+	.cta_rolex {
+		/*background-color: white;*/
+		  background-color: #17794F;
+		border: none;
+		border-radius:28px;
+
+		color: white;
+		padding: 5px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 100%;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		cursor: pointer;
+		color: white;
+		
+	}
+	
+	
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.carousel-caption {
+		width:500px;
+		z-index:10;
+		color:rgb(0, 0, 0);
+		text-align:center;
+		top:47%;
+	    left: 3%;
+		bottom:auto;
+		-webkit-transform:translate(0, -50%);
+		-ms-transform:translate(0, -50%);
+		transform:translate(0, -50%);
+		}
+		.text-head{
+			font-size: 18px
+		}
+		.btn-size{
+			font-size: 11px
+		}
+		.de{
+			visibility: hidden;
+		}
+
+
+		.cta_rolex {
+			/*background-color: white;*/
+			  background-color: #17794F;
+			border: none;
+			border-radius:28px;
+			color: white;
+			padding: 5px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 50%;
+			margin: 4px 2px;
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+			cursor: pointer;
+			color: white;
+			width: 25%;
+		}
+		
+		
+  }
+
+
+
+
+
+
+
+
+ 

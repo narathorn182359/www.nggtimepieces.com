@@ -1,0 +1,635 @@
+*{
+    outline: none !important;
+    text-decoration: none !important;
+  }
+  *:focus{
+    outline: none !important;
+  }
+  
+
+  h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body:lang(th) {
+    font-family: 'Bellefair', serif;
+  }
+  
+  body:lang(th) .entry-content h1, body:lang(th) .entry-content h2, body:lang(th) .entry-content h3, body:lang(th) .entry-content h4, body:lang(th) .entry-content h5 {
+    font-family: 'Bellefair', serif;
+    font-weight: bold;
+  }
+  body:lang(th) .entry-content {
+    font-family: 'Bellefair', serif;
+  }
+  body:lang(th) .rolex-navigation li a {
+    font-family: 'Bellefair', serif;
+    font-size: 14px;
+  }
+  .wrapper-container{
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .wrapper-container {
+      max-width: 768px;
+    }
+  }
+  @media (min-width: 992px) {
+    .wrapper-container {
+      max-width: 992px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .wrapper-container {
+      max-width: 1200px;
+    }
+  }
+  @media (min-width: 1450px){
+    .wrapper-container {
+      max-width: 1450px;
+    }
+  }
+  
+  #masthead .container-fluid {
+    padding: 0;
+  }
+  body{
+    font-family: 'AlegreyaSansSC', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .overlay-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .topbar-item a {
+    padding: 0 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 44px;
+    color: #777777;
+  }
+  .topbar {
+    line-height: 44px;
+  }
+  #primary-menu li a {
+    line-height: 22px;
+    padding: 0 15px;
+    color: #000000;
+    
+    text-transform: uppercase;
+    -webkit-transition: margin .4s ease, padding .4s ease;
+    -o-transition: margin .4s ease, padding .4s ease;
+    transition: margin .4s ease, padding .4s ease;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .main-navigation {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  #primary-menu li a:hover {
+    color:#000000;
+    text-decoration: none !important;
+  }
+  header#masthead, footer#colophon {
+    background-size: cover;
+    background-position: center center;
+  }
+  .copyright-text {
+    margin: 0;
+  }
+  .copyright {
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 2px;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  
+  #colophon {
+    background-color: #F6F6F6;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding: 40px 0;
+  }
+  #copyright-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #copyright-menu li:before {
+    content: '|';
+    margin: 0 5px;
+  }
+  .copyright-text {
+    margin-bottom: 0;
+  }
+  #copyright-menu li a {
+    color: #000000;
+    text-decoration: none !important;
+  }
+  .footer-col-title {
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 2px;
+  }
+  .list-unstyled {
+    margin: 0;
+  }
+  .footer-menu-item a {
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 2px;
+  }
+  .toggle-more {
+    position: relative;
+  }
+  
+  .toggle-more-btn:after {
+    content: '\f107';
+    font-family: 'fontawesome';
+    font-size: 20px;
+    margin-left: 50px;
+    transition: all ease 0.3s;
+  }
+  .footer-menu-item {
+    margin-top: 17px;
+  }
+  .post, .page {
+    margin-bottom: 0;
+  }
+  .toggle-more-btn.active:after {
+    transform: rotate(180deg);
+  }
+  .ss-line:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../images/line.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .social-item a {
+    font-size: 20px;
+    line-height: 20px;
+    height: 30px;
+    display: inline-block;
+    color: #000;
+  }
+  
+  li.social-item {
+    height: 20px;
+    margin-right: 10px;
+  }
+  .social-box {
+    margin-top: 17px;
+  }
+  .rolex-navigation li a {
+    font-weight: 500;
+    font-size: 12px;
+    color: #212121;
+    height: 40px;
+    font-family: 'Helvetica',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease 0.3s;
+  }
+  .rolex-menu-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .rolex-menu-container li {
+    margin-left: 30px;
+    line-height: 40px;
+  }
+  #rolex-main-navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .rolex-button a {
+    border-radius: 2em;
+    border: 1px solid #127749;
+    background: transparent;
+    color: #127749!important;
+    padding: 15px 30px;
+    transition: all ease 0.3s;
+  }
+  
+  .rolex-button a:hover {
+    background: #127749;
+    color: #FFF !important;
+  }
+  
+  .rolex-menu-container li a:hover {
+    color: #127749;
+  }
+  .page-content, .entry-content, .entry-summary {
+    margin-top: 0;
+  }
+  .banner-row .vc_column-inner {
+    padding: 0 !important;
+  }
+  #desktop-banner {
+    height: 260px;
+  }
+  #desktop-banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  #mobile-banner {
+    display: none;
+  }
+  .entry-content {
+    font-family: 'Helvetica',sans-serif;
+    font-size: 14px;
+  }
+  .intro-text.wpb_text_column.wpb_content_element {
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px !important;
+  }
+  .intro-text h4 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    letter-spacing: 0.05em;
+    color: #767676;
+    text-transform: uppercase;
+  }
+  
+  .intro-text h2 {
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  .video-content {
+    color: #FFF;
+  }
+  .video-content-wrapper .vc_column-inner {
+    padding: 0 !important;
+  }
+  .video-content {
+    width: 70%;
+    margin: auto;
+  }
+  
+  #rolex-video{
+    margin-bottom: 100px;
+  }
+  .rolex-video iframe{
+    float: left;
+  }
+  .rolex-video .vc_column-inner {
+    padding: 0 !important;
+  }
+  .rolex-btn-wrapper a, .rolex-btn {
+    text-transform: uppercase;
+    font-size: 12px !important;
+    border: 1px solid #127749 !important;
+    padding: 15px 35px !important;
+    border-radius: 100em !important;
+    transition: all ease 0.3s !important;
+    background-color: #127749 !important;
+    color: #ffffff !important;
+    background-image: none !important;
+  }
+  #visit-us .wpb_wrapper {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    max-width: 800px;
+  }
+  .rolex-btn-wrapper a:hover, .rolex-btn:hover {
+    background-color: transparent !important;
+    color: #127749 !important;
+  }
+  .keep-exploring-inner-wrapper{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    position: relative;
+  }
+  .owl-item {
+    display: inline-block;
+    float: left;
+  }
+  .list-image {
+    position: relative;
+  }
+  .list-image a {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: all ease 0.3s;
+  }
+  
+  .list-image:hover a {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .owl-stage-outer {
+    overflow: hidden;
+  }
+  .owl-nav button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    line-height: 0;
+    outline: none !important;
+    opacity: 0.3;
+    transition: all ease 0.3s;
+  }
+  
+  .owl-nav button:before {
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+  }
+  
+  button.owl-prev {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 25px);
+  }
+  button.owl-next {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 25px);
+  }
+  
+  ul#keep-exploring-item {
+    margin: 0;
+  }
+  .list-image-wrapper {
+    width: 100%;
+  }
+  .keep-exploring-item-wrapper h3 {
+    margin-bottom: 50px;
+  }
+  ul#keep-exploring-item h5 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  ul#keep-exploring-item h5 a {
+    color: #212121;
+  }
+  .owl-nav button span {
+    font-size: 0;
+  }
+  .owl-nav button.owl-prev:before {
+    content: '\f104';
+    font-family: 'fontawesome';
+  }
+  .owl-nav button.owl-next:before {
+    content: '\f105';
+    font-family: 'fontawesome';
+  }
+  .owl-nav button:hover {
+    opacity: 1;
+  }
+  #keep-exploring-row {
+    margin-bottom: 120px;
+    max-width: 1240px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .rolex-logo-footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .rolex-logo-footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .rolex-footer-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-top: #e1e1e1 1px solid;
+    border-bottom: #e1e1e1 1px solid;
+  }
+  .rolex-footer-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .rolex-footer-nav li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .rolex-footer-nav li:nth-last-child(1) {
+    margin-right: 0;
+  }
+  a.backtop-btn:before {
+    content: '\f106';
+    font-family: 'fontawesome';
+    background-color: #127749;
+    color: #FFF;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    line-height: 43px;
+    font-size: 25px;
+    border-radius: 100%;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    border: 1px solid #127749;
+  }
+  a.backtop-btn:hover:before {
+    background-color: transparent;
+    color: #127749;
+  }
+  .rolex-footer-backtop {
+    margin-bottom: 40px !important;
+  }
+  #page-footer {
+    text-align: center;
+  }
+  #page-footer li a {
+    color: #212121;
+    text-transform: uppercase;
+    transition: all ease 0.3s;
+    font-size: 12px;
+    text-decoration: none !important;
+    outline: none;
+    font-weight: 100;
+  }
+  #page-footer li a:hover, #page-footer .menu-item.current_page_item a {
+    color: #127749 !important;
+  }
+  .rolex-navigation li.current-menu-item a {
+    color: #127748;
+  }
+  #visit-us {
+    margin-bottom: 100px;
+    max-width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .wpb_text_column {
+    margin-bottom: 0 !important;
+  }
+  .rolex-logo-img {
+    max-width: 120px;
+  }
+  .wpml-ls-last-item {
+    margin-left: 0 !important;
+  }
+  .wpml-ls-last-item:before {
+    content: '|';
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .wpml-ls-current-language span {
+    color: #127748;
+  }
+  ul.sub-menu {
+    position: absolute;
+    width: 220px;
+    background-color: #FFF;
+    box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
+    border-top: 2px solid #791317;
+    height: auto;
+    z-index: 199;
+    top: 100%;
+    left: 0;
+    margin: 0;
+  }
+  
+  #primary-menu .sub-menu li > a {
+    font-weight: normal;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    letter-spacing: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    letter-spacing: 2px;
+    color: #000000;
+    font-size: 12px !important;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .main-navigation ul ul.sub-menu li {
+    width: 100%;
+  }
+  
+  #primary-menu .sub-menu li:hover a {
+    background-color: #F9F9F9 !important;
+    padding-left: 18px;
+  }
+  .main-navigation ul ul {
+    left: 0;
+    top: 22px;
+    float: unset;
+    display: none;
+  }
+  li.menu-item-has-children a:after {
+    padding-top: 50px;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  .watch-content a {
+    color: #212121;
+    text-transform: uppercase;
+    transition: all ease 0.3s;
+    text-decoration: none !important;
+  }
+  a {
+    cursor: pointer;
+  }
+  #rolex-collection {
+    margin-bottom: 100px !important;
+  }
+  .watch-content {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 30px !important;
+  }
+  .watch-image {
+    max-width: 340px;
+    margin: auto;
+    overflow: hidden;
+  }
+  #rolex-collection {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .owl-nav.disabled {
+    display: none;
+  }
+  .owl-dots.disabled {
+    display: none;
+  }
+  .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .owl-dots button {
+    padding: 0;
+    border: none;
+    height: 2px;
+    background: #E5E5E5;
+    width: 30px;
+    margin-right: 10px;
+    transition: all ease 0.3s;
+    outline: none;
+  }
+  .owl-dots button.active {
+    background: #000;
+  }
+  .mobile-menu-toggle{
+    display: none;
+  }
+  a.mobile-menu-toggle.active:after {
+    content: '\f106';
+  }
+  .retailer-watch.mobile, .site-menu-button{
+    display: none;
+  }
+  .footer-col-title {
+    pointer-events: none;
+  }
+  .list-image a.active {
+      background: rgba(255, 255, 255, 0.5);
+  }
+  img.list-img-mobile {
+      display: none;
+  }
+  .rolex-logo-footer img {
+      max-width: 104px;
+  }
