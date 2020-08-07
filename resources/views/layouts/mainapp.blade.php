@@ -123,6 +123,7 @@ $(document).ready(function(){
 			document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
 			return false;
 		} else {
+			$('#myResultDiv').text("Please wait.....");
 			return true;
 		}
 	}

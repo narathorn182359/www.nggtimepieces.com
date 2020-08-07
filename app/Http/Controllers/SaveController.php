@@ -14,7 +14,7 @@ class SaveController extends Controller
       public function save_contact(Request $request){
 
         $random_i = Str::random();
-        
+      
         $ip =  $_SERVER['REMOTE_ADDR'];
         $i  =  $request->accept_marketing;
         $text = "";
@@ -77,7 +77,7 @@ Mail::send('emails.reply', $data, function ($message_send) use ($data) {
    });
 
 
-        return   redirect('i/contact')->with('success','YOU HAVE SUCCESSFULLY RECORDED THE DATA. WE WILL CONTACT YOU SHORTLY. THANK YOU.');
+        return   redirect('contact')->with('success','YOU HAVE SUCCESSFULLY RECORDED THE DATA. WE WILL CONTACT YOU SHORTLY. THANK YOU.');
       }
 
 

@@ -400,7 +400,7 @@ ul.social li{
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
                       <td style="text-align: left; padding-left: 10px;">
-						<img src="https://i.imgur.com/4SxfeTA.gif" width="100%" alt="">
+					
                       </td>
                     </tr>
                   </table>

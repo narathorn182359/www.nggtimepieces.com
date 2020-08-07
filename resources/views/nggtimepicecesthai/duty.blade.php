@@ -33,10 +33,10 @@
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-    <img src="{{url('img/duty_1.jpg')}}" alt="" width="100%">
+    <img src="{{url('img/duty_1.jpg')}}" alt="" width="50%">
     </div>
     <div id="menu1" class="tab-pane fade">
-        <img src="{{url('img/duty_2.jpg')}}" alt="" width="100%">
+        <img src="{{url('img/duty_2.jpg')}}" alt="" width="50%">
     </div>
   </div>
 

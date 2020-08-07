@@ -5,12 +5,16 @@
     <br><br><br>
     <!-- contact -->
     <div class="container">
-		@if ($message = Session::get('success'))
-		<div class="alert alert-success alert-block">
-			<button type="button" class="close" data-dismiss="alert">×</button>
-			<strong>{{ $message }}</strong>
-		</div>
-		@endif
+        <center>
+            <div id="myResultDiv"></div>
+        </center>
+        <br>
+        @if ($message = Session::get('success'))
+            <div class="alert alert-success alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>{{ $message }}</strong>
+            </div>
+        @endif
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -49,7 +53,10 @@
                         </div>
                     </div>
 
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1938.1816590753535!2d100.53559304033658!3d13.696431821892109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f49a4384edf%3A0x999bc8f2e15355c9!2sNGG%20Timepieces%20-%20Official%20Rolex%20Retailer!5e0!3m2!1sth!2sth!4v1596558291333!5m2!1sth!2sth" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1938.1816590753535!2d100.53559304033658!3d13.696431821892109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f49a4384edf%3A0x999bc8f2e15355c9!2sNGG%20Timepieces%20-%20Official%20Rolex%20Retailer!5e0!3m2!1sth!2sth!4v1596558291333!5m2!1sth!2sth"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                 </div>
                 <div class="swiper-slide">
                     <div class="infomation">
@@ -185,51 +192,52 @@
                                 </label>
                             </span>
                             <br>
-                            	<div class="g-recaptcha" data-sitekey="6LcQn7kUAAAAAP2_o1MT8pN5ozBs3gPGGGQX1jR9" data-callback="verifyCaptcha"></div>
-           <div id="g-recaptcha-error"></div>
+                            <div class="g-recaptcha" data-sitekey="6LcQn7kUAAAAAP2_o1MT8pN5ozBs3gPGGGQX1jR9"
+                                data-callback="verifyCaptcha"></div>
+                            <div id="g-recaptcha-error"></div>
 
                             <input type="submit" value="Submit">
-						</div>
-						<div class="col-md-6 w3_agile_mail_grid">
-							<textarea placeholder="Your message here..." required="" name="message"></textarea>
-						</div>
+                        </div>
+                        <div class="col-md-6 w3_agile_mail_grid">
+                            <textarea placeholder="Your message here..." required="" name="message"></textarea>
+                        </div>
                     </div>
 
-                  
-                   
+
+
                     <div class="clearfix"> </div>
                 </form>
             </div>
 
-		</div>
-	</div>
-        <!-- //mail -->
-        <br><br><br>
+        </div>
+    </div>
+    <!-- //mail -->
+    <br><br><br>
 
 
-    @endsection
+@endsection
 
 
-    @section('javascript')
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                spaceBetween: 30,
-                centeredSlides: true,
-                loop: true,
-                autoplay: {
-                    delay: 8000,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
+@section('javascript')
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
 
-        </script>
+    </script>
 
-    @endsection
+@endsection

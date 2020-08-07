@@ -120,7 +120,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <a href="{{ url('i/contact') }}" style="color: black">
+                <a href="{{ url('/contact') }}" style="color: black">
                     <img src="{{ url('ngg/images/008.jpg') }}" alt=" " class="img-info" />
                     <h4 class="text-center">WATCHES CARE</h4>
                 </a>
@@ -142,7 +142,7 @@
         <br><br>
         <div class="row">
             <div class="col-md-6">
-              <a href="{{ url('i/contact') }}" style="color: black">
+              <a href="{{ url('/contact') }}" style="color: black">
                 <img src="{{ url('ngg/images/003.jpg') }}" alt=" " class="img-info" />
                 <h4 class="text-center">CONTACT US</h4>
               </a>

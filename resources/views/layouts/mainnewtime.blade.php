@@ -37,6 +37,23 @@
         content="NGG Timepieces Thailand is honoured to be part of the worldwide network of Official Rolex Retailers for Rolex Thailand, Udonthani allowed to sell and maintain Rolex watches.">
     <meta name="twitter:image"
         content="https://nggtimepieces.com/rolex/wp-content/uploads/2019/10/keep_exploring_retailer_hp_0001_364x200.jpg">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+<link rel="manifest" href="/icon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
         <link href="{{asset('ngg/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
         <link href="{{asset('ngg/css/card.css')}}" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript">
@@ -235,7 +252,7 @@
                                     aria-hidden="true"></i> 02-678-9988</a></div>
                         <div class="topbar-item faq"><a href="{{ url('/faq') }}"><i class="fa fa-question-circle"
                                     aria-hidden="true"></i> FAQ</a></div>
-                        <div class="topbar-item contact"><a href="{{ url('i/contact') }}"><i class="fa fa-map-marker"
+                        <div class="topbar-item contact"><a href="{{ url('/contact') }}"><i class="fa fa-map-marker"
                                     aria-hidden="true"></i> Contact Us</a></div>
                         <div class="topbar-item facebook"><a href="https://www.facebook.com/nggtimepieces/"
                                 target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
@@ -296,10 +313,10 @@
                                             <a href="https://nggtimepieces.com/rolex/">ROLEX</a></li>
                                         <li id="menu-item-18"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18">
-                                            <a href="{{ url('i/boutiuqes') }}">BOUTIQUE</a></li>
+                                            <a href="{{ url('/boutiques') }}">BOUTIQUE</a></li>
                                         <li id="menu-item-19"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19">
-                                            <a href="{{ url('i/trending') }}">WHAT&#8217;S TRENDING</a></li>
+                                            <a href="{{ url('/trending') }}">WHAT&#8217;S TRENDING</a></li>
                                         <li id="menu-item-20"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20">
                                             <a href="#">ABOUT US</a>
@@ -314,7 +331,7 @@
                                         </li>
                                         <li id="menu-item-21"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21">
-                                            <a href="{{ url('i/contact') }}">CONTACT US</a></li>
+                                            <a href="{{ url('/contact') }}">CONTACT US</a></li>
                                     </ul>
                                 </div>
                                 <div class="retailer-watch mobile">

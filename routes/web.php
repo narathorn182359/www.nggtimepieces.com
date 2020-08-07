@@ -70,7 +70,7 @@ Route::get('/privacy_policy', function () {
     return view('nggtimepieces.privacy_policy');
 });
 
-Route::get('i/trending', function () {
+Route::get('/trending', function () {
     $trending   = DB::table('trending')
     ->orderBy('id', 'desc')
     ->get();
@@ -84,6 +84,14 @@ Route::get('i/trending', function () {
 
 Route::get('/rolex', function () {
     return view('nggtimepieces.rolex');
+});
+
+Route::get('/heritage', function () {
+    return view('nggtimepieces.heritage');
+});
+
+Route::get('/vision', function () {
+    return view('nggtimepieces.vision');
 });
 
 Route::get('/detailblog/{id}', function ($id) {
@@ -100,7 +108,7 @@ Route::get('/detailblog/{id}', function ($id) {
     return view('nggtimepieces.blogdetail',$data);
 });
 
-Route::get('i/contact', function () {
+Route::get('contact', function () {
     return view('nggtimepieces.contact');
 });
 
@@ -121,7 +129,7 @@ Route::get('/blog', function () {
 
 
 
-Route::get('i/boutiuqes', function () {
+Route::get('/boutiques', function () {
    $boutiuqes   = DB::table('boutiuqes')
       ->where('active','1')
       ->get();
@@ -232,17 +240,7 @@ Route::get('/privacy_policy', function () {
     return view('nggtimepicecesthai.privacy_policy');
 });
 
-Route::get('trending', function () {
-    $trending   = DB::table('trending')
-    ->orderBy('id', 'desc')
-    ->get();
 
-    $data =  array(
-        'trending' =>  $trending
-    );
-
-    return view('nggtimepicecesthai.trending',$data);
-});
 
 Route::get('/rolex', function () {
     return view('nggtimepicecesthai.rolex');
@@ -281,18 +279,6 @@ Route::get('blog', function () {
 
 
 
-Route::get('boutiques', function () {
-   $boutiuqes   = DB::table('boutiuqes')
-      ->where('active','1')
-      ->get();
-  
-      $data =  array(
-          'boutiuqes' =>  $boutiuqes
-      );
-
-
-    return view('nggtimepicecesthai.boutiques',$data);
-});
 
 
 
