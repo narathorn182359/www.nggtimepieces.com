@@ -150,9 +150,9 @@
                         <div class="col-md-6 w3_agile_mail_grid">
                             <span class="input input--ichiro">
                                 <input class="input__field input__field--ichiro" type="text" id="input-25" name="name"
-                                    placeholder=" " required="" />
+                                    placeholder=" " required="" maxlength="20" />
                                 <label class="input__label input__label--ichiro" for="input-25">
-                                    <span class="input__label-content input__label-content--ichiro">Your Name</span>
+                                    <span class="input__label-content input__label-content--ichiro" >Your Name</span>
                                 </label>
                             </span>
                             <span class="input input--ichiro">
@@ -164,16 +164,16 @@
                             </span>
                             <span class="input input--ichiro">
                                 <input class="input__field input__field--ichiro" type="text" id="input-28" placeholder=" "
-                                    name="from_country" required="" />
+                                    name="from_country" required="" maxlength="20" />
                                 <label class="input__label input__label--ichiro" for="input-28">
-                                    <span class="input__label-content input__label-content--ichiro">Country</span>
+                                    <span class="input__label-content input__label-content--ichiro" >Country</span>
                                 </label>
                             </span>
                             <span class="input input--ichiro">
                                 <input class="input__field input__field--ichiro" type="text" id="input-27" placeholder=" "
-                                    required="" name="phone" />
+                                    required="" name="phone" maxlength="20"   />
                                 <label class="input__label input__label--ichiro" for="input-27">
-                                    <span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
+                                    <span class="input__label-content input__label-content--ichiro"  >Your Phone Number</span>
                                 </label>
                             </span>
                             <span class="input input--ichiro">
@@ -187,7 +187,7 @@
                             </span>
                             <span class="input input--ichiro">
                                 <label>
-                                    <input type="checkbox" id="accept_marketing" name="accept_marketing" value="1" />
+                                    <input type="checkbox" id="accept_marketing" name="accept_marketing" value="1"  />
                                     I accept receiving marketing information about Rolex from NGG TIMEPIECES CO. LTD.
                                 </label>
                             </span>
@@ -199,7 +199,7 @@
                             <input type="submit" value="Submit">
                         </div>
                         <div class="col-md-6 w3_agile_mail_grid">
-                            <textarea placeholder="Your message here..." required="" name="message"></textarea>
+                            <textarea placeholder="Your message here..." required="" name="message" maxlength="250" ></textarea>
                         </div>
                     </div>
 

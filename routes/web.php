@@ -34,7 +34,7 @@ Route::get('/', function () {
         'banner' =>  $banner
     );
 
-    
+ 
     return view('nggtimepieces.nggtimehome',$data);
 });
 
