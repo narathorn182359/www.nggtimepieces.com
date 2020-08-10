@@ -92,8 +92,9 @@
     -webkit-transition: margin .4s ease, padding .4s ease;
     -o-transition: margin .4s ease, padding .4s ease;
     transition: margin .4s ease, padding .4s ease;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 2px;
+    font-weight: bolder;
   }
   .main-navigation {
     padding-top: 15px;

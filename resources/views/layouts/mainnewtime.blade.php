@@ -152,21 +152,18 @@
         media='all' />
     <link rel='stylesheet' id='bootstrap-style-css' href='{{ asset('ngg_new/bootstrap.min.css') }}' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='custom-css-css' href='{{ asset('ngg_new/custom.css') }}' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-css-css' href='{{ asset('ngg_new/custom2.css') }}' type='text/css' media='all' />
     <link rel='stylesheet' id='responsive-css-css' href='{{ asset('ngg_new/responsive.css') }}' type='text/css'
         media='all' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap" rel="stylesheet">
     <style>
 
         body{
-            font-family: 'Recursive', sans-serif;
+            font-family: 'Alegreya Sans SC', sans-serif;
         }
-        #main-site-navigation {
-            font-family: 'Bellefair', serif;
-        }
+    
 
         .swiper-container {
             width: 100%;
