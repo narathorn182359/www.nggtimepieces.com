@@ -14,7 +14,7 @@ class SaveController extends Controller
     public function save_contact(Request $request)
     {
 
-dd($request->recaptcha);
+
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = [
             'secret' => '6Lc7nr4ZAAAAAI-8XAUzfRFEzCd6flI45Qhf4ZSG',
@@ -32,7 +32,7 @@ dd($request->recaptcha);
         $result = file_get_contents($url, false, $context);
         $resultJson = json_decode($result);
 
-        if ($resultJson->success != true) {
+        if ($resultJson->success != true &&  $response['score'] <= 0.5) {
             return back()->with('message', 'Captcha Error');
         }
 
@@ -84,7 +84,7 @@ dd($request->recaptcha);
             $message_send->subject($data['subject']);
         });
 
-        Mail::send('emails.newform', $data, function ($message_send) use ($data) {
+        Mail::send('emails.contact', $data, function ($message_send) use ($data) {
             $message_send->from('noreply@nggtimepieces.com', 'Rolex - NGGTimepiece.com');
             $message_send->to('narathorn@nioachievers.com');
             $message_send->subject($data['subject']);
