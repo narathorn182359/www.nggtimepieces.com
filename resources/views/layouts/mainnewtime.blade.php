@@ -481,23 +481,18 @@
 
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118670532-1"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lc7nr4ZAAAAAPi6hZmc0StyvrjOM0OvD9jvxHzD"></script>
 <script>
-	function validateRecaptcha() {
-		var response = grecaptcha.getResponse();
-		if (response.length === 0) {
-			// alert("not validated");
-			document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-			return false;
-		} else {
-			return true;
-		}
-	}
-	
-	function verifyCaptcha() {
-		document.getElementById('g-recaptcha-error').innerHTML = '';
-	}
-	</script>
+    function onClick(e) {
+      e.preventDefault();
+      grecaptcha.ready(function() {
+        grecaptcha.execute('reCAPTCHA_site_key', {action: 'save_contact'}).then(function(token) {
+           if(token){
+               document.getElementById('recaptcha').value = token
+           }
+        });
+      });
+    }
+</script>
 @yield('javascript')
 </html>

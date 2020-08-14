@@ -15,6 +15,13 @@
                 <strong>{{ $message }}</strong>
             </div>
         @endif
+
+        @if ($message = Session::get('message'))
+        <div class="alert alert-danger alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong>{{ $message }}</strong>
+        </div>
+    @endif
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -192,9 +199,7 @@
                                 </label>
                             </span>
                             <br>
-                            <div class="g-recaptcha" data-sitekey="6LcQn7kUAAAAAP2_o1MT8pN5ozBs3gPGGGQX1jR9"
-                                data-callback="verifyCaptcha"></div>
-                            <div id="g-recaptcha-error"></div>
+                          
 
                             <input type="submit" value="Submit">
                         </div>
@@ -206,6 +211,7 @@
 
 
                     <div class="clearfix"> </div>
+                    <input type="hidden" name="recaptcha" id="recaptcha">
                 </form>
             </div>
 
@@ -219,6 +225,7 @@
 
 
 @section('javascript')
+
     <script>
         var swiper = new Swiper('.swiper-container', {
             spaceBetween: 30,
