@@ -483,8 +483,7 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6Lc7nr4ZAAAAAPi6hZmc0StyvrjOM0OvD9jvxHzD"></script>
 <script>
-    function onClick(e) {
-      e.preventDefault();
+
       grecaptcha.ready(function() {
         grecaptcha.execute('6Lc7nr4ZAAAAAPi6hZmc0StyvrjOM0OvD9jvxHzD', {action: 'save_contact'}).then(function(token) {
            if(token){
@@ -492,7 +491,7 @@
            }
         });
       });
-    }
+    
 </script>
 @yield('javascript')
 </html>
