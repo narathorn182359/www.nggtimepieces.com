@@ -17,7 +17,7 @@ class SaveController extends Controller
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = [
             'secret' => '6Lc7nr4ZAAAAAI-8XAUzfRFEzCd6flI45Qhf4ZSG',
-            'response' => $request->recaptcha,
+            'response' => request('recaptcha'),
         ];
 
         $options = [

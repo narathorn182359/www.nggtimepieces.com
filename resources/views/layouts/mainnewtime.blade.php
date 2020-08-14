@@ -486,7 +486,7 @@
     function onClick(e) {
       e.preventDefault();
       grecaptcha.ready(function() {
-        grecaptcha.execute('reCAPTCHA_site_key', {action: 'save_contact'}).then(function(token) {
+        grecaptcha.execute('6Lc7nr4ZAAAAAPi6hZmc0StyvrjOM0OvD9jvxHzD', {action: 'save_contact'}).then(function(token) {
            if(token){
                document.getElementById('recaptcha').value = token
            }
