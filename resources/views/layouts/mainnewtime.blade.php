@@ -160,7 +160,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap" rel="stylesheet">
     <style>
 
-        body{
+        #primary-menu{
             font-family: 'Alegreya Sans SC', sans-serif;
         }
     

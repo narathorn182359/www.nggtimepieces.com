@@ -25,7 +25,7 @@ Route::get('/new', function () {
 });
 
 Route::get('/', function () {
-  
+  dd(bcrypt('0000'));
     $banner  = DB::table('banner')
     ->where('active','1')
     ->get();
