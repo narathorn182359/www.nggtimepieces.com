@@ -1,6 +1,6 @@
 <?php
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\DB;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,52 +10,48 @@ use Illuminate\Support\Facades\Crypt;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/new', function () {
-    $banner  = DB::table('banner')
-    ->where('active','1')
-    ->get();
+    $banner = DB::table('banner')
+        ->where('active', '1')
+        ->get();
 
-    $data =  array(
-        'banner' =>  $banner
+    $data = array(
+        'banner' => $banner,
     );
 
-    return view('nggtimepicecesthai.welcome',$data);
+    return view('nggtimepicecesthai.welcome', $data);
 });
 
 Route::get('/', function () {
-  dd(bcrypt('0000'));
-    $banner  = DB::table('banner')
-    ->where('active','1')
-    ->get();
+ dd(bcrypt('0000'));
+  $banner = DB::table('banner')
+->where('active', '1')
+->get();
 
-    $data =  array(
-        'banner' =>  $banner
-    );
+$data = array(
+'banner' => $banner,
+);
 
- 
-    return view('nggtimepieces.nggtimehome',$data);
+return view('nggtimepieces.nggtimehome', $data); 
 });
 
-
-
 Route::get('i/index', function () {
-    $banner  = DB::table('banner')
-    ->where('active','1')
-    ->get();
+    $banner = DB::table('banner')
+        ->where('active', '1')
+        ->get();
 
-    $data =  array(
-        'banner' =>  $banner
+    $data = array(
+        'banner' => $banner,
     );
 
-    return view('nggtimepieces.welcome',$data);
+    return view('nggtimepieces.welcome', $data);
 });
 
 Route::get('/faq', function () {
     return view('nggtimepieces.faq');
 });
-
 
 Route::get('i/duty', function () {
     return view('nggtimepieces.duty');
@@ -65,21 +61,20 @@ Route::get('/terms_and_conditions', function () {
     return view('nggtimepieces.terms_and_conditions');
 });
 
-
 Route::get('/privacy_policy', function () {
     return view('nggtimepieces.privacy_policy');
 });
 
 Route::get('/trending', function () {
-    $trending   = DB::table('trending')
-    ->orderBy('id', 'desc')
-    ->get();
+    $trending = DB::table('trending')
+        ->orderBy('id', 'desc')
+        ->get();
 
-    $data =  array(
-        'trending' =>  $trending
+    $data = array(
+        'trending' => $trending,
     );
 
-    return view('nggtimepieces.trending',$data);
+    return view('nggtimepieces.trending', $data);
 });
 
 Route::get('/rolex', function () {
@@ -96,16 +91,15 @@ Route::get('/vision', function () {
 
 Route::get('/detailblog/{id}', function ($id) {
     $id_de = Crypt::decrypt($id);
-    $blog  = DB::table('blog')
-     ->where('id_blog',$id_de)
-     ->first();
+    $blog = DB::table('blog')
+        ->where('id_blog', $id_de)
+        ->first();
 
-    $data =  array(
-        'blog' =>  $blog
+    $data = array(
+        'blog' => $blog,
     );
 
-
-    return view('nggtimepieces.blogdetail',$data);
+    return view('nggtimepieces.blogdetail', $data);
 });
 
 Route::get('contact', function () {
@@ -114,39 +108,29 @@ Route::get('contact', function () {
 
 Route::get('/blog', function () {
 
-    $bolg   = DB::table('blog')
-    
-    ->get();
+    $bolg = DB::table('blog')
 
-    $data =  array(
-        'bolg' =>  $bolg
+        ->get();
+
+    $data = array(
+        'bolg' => $bolg,
     );
 
-    return view('nggtimepieces.bolg',$data);
-    
+    return view('nggtimepieces.bolg', $data);
+
 });
-
-
-
 
 Route::get('/boutiques', function () {
-   $boutiuqes   = DB::table('boutiuqes')
-      ->where('active','1')
-      ->get();
-  
-      $data =  array(
-          'boutiuqes' =>  $boutiuqes
-      );
+    $boutiuqes = DB::table('boutiuqes')
+        ->where('active', '1')
+        ->get();
 
+    $data = array(
+        'boutiuqes' => $boutiuqes,
+    );
 
-    return view('nggtimepieces.boutiques',$data);
+    return view('nggtimepieces.boutiques', $data);
 });
-
-
-
-
-
-
 
 Auth::routes();
 
@@ -203,29 +187,23 @@ Route::get('/banner_edit/{id}', 'HomeController@edid_banner')->name('edid_banner
 Route::post('/edit_banner/{id}', 'HomeController@edit_banner')->name('edit_banner');
 Route::post('delete_banner', 'HomeController@delete_banner')->name('delete_banner');
 
-
 ////
-
-
-
-
 
 Route::get('/th', function () {
 
-    $banner  = DB::table('banner')
-    ->where('active','1')
-    ->get();
+    $banner = DB::table('banner')
+        ->where('active', '1')
+        ->get();
 
-    $data =  array(
-        'banner' =>  $banner
+    $data = array(
+        'banner' => $banner,
     );
-    return view('nggtimepicecesthai.welcome',$data);
+    return view('nggtimepicecesthai.welcome', $data);
 });
 
 Route::get('/faq', function () {
     return view('nggtimepicecesthai.faq');
 });
-
 
 Route::get('/duty', function () {
     return view('nggtimepicecesthai.duty');
@@ -235,12 +213,9 @@ Route::get('/terms_and_conditions', function () {
     return view('nggtimepicecesthai.terms_and_conditions');
 });
 
-
 Route::get('/privacy_policy', function () {
     return view('nggtimepicecesthai.privacy_policy');
 });
-
-
 
 Route::get('/rolex', function () {
     return view('nggtimepicecesthai.rolex');
@@ -248,52 +223,39 @@ Route::get('/rolex', function () {
 
 Route::get('th/detailblog/{id}', function ($id) {
     $id_de = Crypt::decrypt($id);
-    $blog  = DB::table('blog')
-     ->where('id_blog',$id_de)
-     ->first();
+    $blog = DB::table('blog')
+        ->where('id_blog', $id_de)
+        ->first();
 
-    $data =  array(
-        'blog' =>  $blog
+    $data = array(
+        'blog' => $blog,
     );
 
-
-    return view('nggtimepicecesthai.blogdetail',$data);
+    return view('nggtimepicecesthai.blogdetail', $data);
 });
-
-
 
 Route::get('blog', function () {
 
-    $bolg   = DB::table('blog')
-    
-    ->get();
+    $bolg = DB::table('blog')
 
-    $data =  array(
-        'bolg' =>  $bolg
+        ->get();
+
+    $data = array(
+        'bolg' => $bolg,
     );
 
-    return view('nggtimepicecesthai.bolg',$data);
-    
+    return view('nggtimepicecesthai.bolg', $data);
+
 });
-
-
-
-
-
-
 
 Route::get('confirm/{id}', function ($id) {
 
-      DB::table('contact')
-      ->where('key_set',$id)
-      ->update([
-          'send_mail' => '1'
-          ]);
+    DB::table('contact')
+        ->where('key_set', $id)
+        ->update([
+            'send_mail' => '1',
+        ]);
 
+    return view('nggtimepieces.confirm');
 
- return view('nggtimepieces.confirm');
-    
 });
-
-
-
