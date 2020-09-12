@@ -8,10 +8,8 @@
             @foreach ($banner as $item)
                 @if ($loop->first)
                     <div class="swiper-slide">
-                        <div class="img-num">
-
-                            <label class="text-head">ROLEX WATCHES </label>
-
+                         <div class="img-num">
+                            <label class="text-head" style="color: #ffffff">ROLEX NEW WATCHES 2020</label>
                             <h3>
                                 <a href="https://nggtimepieces.com/rolex/" target="_top">
 
@@ -27,8 +25,8 @@
 
 
 
-                        </div>
-                        <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
+                        </div> 
+                         <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
 
                     </div>
 
@@ -72,12 +70,14 @@
 
             <div class="col-md-6">
                 <br><br>
-                <h5>
+       
+<label style="font-size: 25px">
+    A luxury wristwatch is something much more than a simple timepiece. It is a piece of art, a true
+    exclusiveness and extreme reliability and accuracy.
 
-                    A luxury wristwatch is something much more than a simple timepiece. It is a piece of art, a true
-                    exclusiveness and extreme reliability and accuracy.
-
-                </h5>
+</label>
+                  
+           
             </div>
 
 
@@ -86,10 +86,10 @@
         <div class="row">
             <div class="col-md-6">
                 <br>
-                <h5>
+                <label style="font-size: 25px">
                     A luxury wristwatch is a great way to show your status, your taste, your style. Even in spite of
                     constantly developing technologies, exclusive watches will always be in demand.
-                </h5>
+                </label>
             </div>
 
 
@@ -162,6 +162,7 @@
         </div>
 
     </div>
+  
 @endsection
 
 @section('javascript')

@@ -6,5 +6,5 @@
 
 </iframe>
 
-{{-- <a id="popupclose" href="{{url('css/318029.jpg')}}" style="display:none;"></a> --}}
+
 @endsection

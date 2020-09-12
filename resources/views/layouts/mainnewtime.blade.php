@@ -160,7 +160,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap" rel="stylesheet">
     <style>
 
-        body{
+        #primary-menu{
             font-family: 'Alegreya Sans SC', sans-serif;
         }
     
@@ -260,7 +260,7 @@
                         <div class="logo-container row align-items-start">
                             <div class="col-md-4 offset-md-4 text-center logo-img">
                                 <a class="site-menu-button" href="#"></a>
-                                <a href=""><img src="{{ url('/img/logo-agency.jpg') }}" width="100" height="49"></a>
+                                <a href=""><img src="{{ url('/img/logo-agency.png') }}" width="100" height="49"></a>
                             </div>
                             <div class="col-md-4 retailer-watch text-md-right">
                                 <div class="rolex_frame"
@@ -444,7 +444,7 @@
             </div>
     </footer>
     </div><!-- #page -->
-
+ 
     <script type='text/javascript' src='{{ asset('ngg_new/navigation.js') }}'></script>
     <script type='text/javascript' src='{{ asset('ngg_new/owl.carousel.min.js') }}'></script>
     <script type='text/javascript' src='{{ asset('ngg_new/custom.js') }}'></script>
