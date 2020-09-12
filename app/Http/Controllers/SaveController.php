@@ -31,7 +31,7 @@ class SaveController extends Controller
         $context = stream_context_create($options);
         $result = file_get_contents($url, false, $context);
         $resultJson = json_decode($result);
-
+dd($resultJson);
         if ($resultJson->success != true &&  $response['score'] <= 0.5) {
             return back()->with('message', 'Captcha Error');
         }
@@ -78,12 +78,12 @@ class SaveController extends Controller
 
         );
 
-        Mail::send('emails.contact', $data, function ($message_send) use ($data) {
+    /*     Mail::send('emails.contact', $data, function ($message_send) use ($data) {
             $message_send->from('noreply@nggtimepieces.com', 'Rolex - NGGTimepiece.com');
             $message_send->to('info@nggtimepieces.com');
             $message_send->subject($data['subject']);
         });
-
+ */
         Mail::send('emails.contact', $data, function ($message_send) use ($data) {
             $message_send->from('noreply@nggtimepieces.com', 'Rolex - NGGTimepiece.com');
             $message_send->to('narathorn@nioachievers.com');
