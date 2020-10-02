@@ -9,7 +9,7 @@
                 @if ($loop->first)
                     <div class="swiper-slide">
                          <div class="img-num">
-                            <label class="text-head" style="color: #ffffff">ROLEX NEW WATCHES 2020</label>
+                            <label class="text-head" >ROLEX NEW WATCHES 2020</label>
                             <h3>
                                 <a href="https://nggtimepieces.com/rolex/" target="_top">
 
