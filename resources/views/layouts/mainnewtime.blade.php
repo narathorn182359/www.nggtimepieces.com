@@ -260,7 +260,7 @@
                         <div class="logo-container row align-items-start">
                             <div class="col-md-4 offset-md-4 text-center logo-img">
                                 <a class="site-menu-button" href="#"></a>
-                                <a href=""><img src="{{ url('/img/logo-agency.png') }}" width="100" height="49"></a>
+                                <a href=""><img src="https://www.nggtimepieces.com/img/logo-agency.png" width="80" height="80"  class="imghome"></a>
                             </div>
                             <div class="col-md-4 retailer-watch text-md-right">
                                 <div class="rolex_frame"

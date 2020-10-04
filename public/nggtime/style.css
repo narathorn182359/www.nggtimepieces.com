@@ -2,7 +2,10 @@
     font-size: 36px
 }
 
-
+.imghome{
+    width:50;
+    height:50;
+}
 
 
 .br{
@@ -93,7 +96,10 @@ transform:translate(0, -50%);
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-
+    .imghome{
+         width:100;
+         height:49;
+    }
     .infomation {
         float: left;
         position: absolute;
@@ -219,22 +225,22 @@ and (max-device-width : 1024px) {
 
 
     .cta_rolex {
-        /*background-color: white;*/
-          background-color: #17794F;
+       
+        background-color: #17794F;
         border: none;
-        border-radius:28px;
+        border-radius: 28px;
         color: white;
-        padding: 5px 25px;
+        padding: 8px 10px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 10px;
         margin: 4px 2px;
-        -webkit-transition-duration: 0.4s; /* Safari */
+        -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
         cursor: pointer;
         color: white;
-        width: 38%;
+        width: 32%;
     }
     
     
