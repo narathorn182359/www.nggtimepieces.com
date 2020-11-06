@@ -143,7 +143,7 @@
     <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ url('ngg/css/flexslider.css') }}" type="text/css" media="screen" property="" />
     <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('nggtime/style.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url('nggtime/style2.css') }}" type="text/css" />
     <link rel='stylesheet' id='wp-block-library-css' href='{{ asset('ngg_new/style.min.css') }}' type='text/css'
         media='all' />
     <link rel='stylesheet' id='wpml-menu-item-0-css' href='{{ asset('ngg_new/style_2.css') }}' type='text/css'

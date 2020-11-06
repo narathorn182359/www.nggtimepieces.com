@@ -10,22 +10,15 @@
                     <div class="swiper-slide">
                          <div class="img-num">
                             <label class="text-head" >ROLEX NEW WATCHES 2020</label>
-                            <h3>
-                                <a href="https://nggtimepieces.com/rolex/" target="_top">
-
-                                    <button class="cta_rolex btn-size">EXPLORE THE
-
-
-
-                                        COLLECTION
-
-                                    </button>
-
-                                </a>
-
-
-
+                           
                         </div> 
+                        <div class="img-num_2">
+                            <a href="https://nggtimepieces.com/rolex/" target="_top">
+                                <button class="cta_rolex btn-size">EXPLORE THE
+                                    COLLECTION
+                                </button>
+                            </a>
+                        </div>
                          <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
 
                     </div>

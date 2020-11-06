@@ -248,7 +248,7 @@ and (max-device-width : 1024px) {
     color:rgb(0, 0, 0);
     text-align:center;
     top: 62%;
-    left: 4%;
+    left: 2%;
     bottom:auto;
     -webkit-transform:translate(0, -50%);
     -ms-transform:translate(0, -50%);
