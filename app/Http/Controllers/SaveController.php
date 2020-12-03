@@ -31,7 +31,7 @@ class SaveController extends Controller
         $context = stream_context_create($options);
         $result = file_get_contents($url, false, $context);
         $resultJson = json_decode($result);
-dd($resultJson);
+//dd($resultJson);
         if ($resultJson->success != true &&  $response['score'] <= 0.5) {
             return back()->with('message', 'Captcha Error');
         }
