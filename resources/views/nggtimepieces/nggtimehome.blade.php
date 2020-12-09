@@ -13,7 +13,7 @@
                            
                         </div> 
                         <div class="img-num_2">
-                            <a href="https://nggtimepieces.com/rolex/" target="_top" >
+                            <a href="https://nggtimepieces.com/rolex/festive-selection" target="_top" >
                                 <button class="cta_rolex btn-size">EXPLORE THE
                                     COLLECTION
                                 </button>
