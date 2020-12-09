@@ -9,11 +9,11 @@
                 @if ($loop->first)
                     <div class="swiper-slide">
                          <div class="img-num">
-                            <label class="text-head" >Discover Rolex Watches</label>
+                            <label class="text-head" style="color: #ffffff">Discover Rolex Watches</label>
                            
                         </div> 
                         <div class="img-num_2">
-                            <a href="https://nggtimepieces.com/rolex/" target="_top">
+                            <a href="https://nggtimepieces.com/rolex/" target="_top" >
                                 <button class="cta_rolex btn-size">EXPLORE THE
                                     COLLECTION
                                 </button>
