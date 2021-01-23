@@ -436,6 +436,10 @@
                                     <li id="menu-item-46"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a
                                             href="https://www.nggtimepieces.com/privacy_policy/">PRIVACY POLICY</a></li>
+                                            <li id="menu-item-46"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a
+                                                href="{{url('/cookiespolicy')}}">COOKIES POLICY</a></li>
+                                            
                                 </ul>
                             </div>
                         </div>

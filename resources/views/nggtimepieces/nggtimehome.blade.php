@@ -9,14 +9,12 @@
                 @if ($loop->first)
                     <div class="swiper-slide">
                          <div class="img-num">
-                            <label class="text-head" style="color: #ffffff">Discover Rolex Watches</label>
+                            <label class="text-head" >ROLEX WATCHES</label>
                            
                         </div> 
                         <div class="img-num_2">
-                            <a href="https://nggtimepieces.com/rolex/festive-selection" target="_top" >
-                                <button class="cta_rolex btn-size">EXPLORE THE
-                                    COLLECTION
-                                </button>
+                            <a href="https://nggtimepieces.com/rolex/" target="_top" >
+                                <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
                             </a>
                         </div>
                          <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
@@ -155,7 +153,13 @@
         </div>
 
     </div>
-  
+  @isset($pop_show->status)
+  @if (  $pop_show->status == 1)
+  <a id="popupclose" href="{{url('/img/'.$pop_show->img)}}" style="display:none;"></a>
+  @endif 
+  @endisset
+ 
+   
 @endsection
 
 @section('javascript')

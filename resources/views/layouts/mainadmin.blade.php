@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>Admin | Dashboard</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -61,6 +62,10 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition skin-red sidebar-mini">
+  <input type="hidden" name="url_geteditimgpop" id="url_geteditimgpop" value="{{url('geteditimgpop')}}">
+  <input type="hidden" name="url_saveimgpop" id="url_saveimgpop" value="{{url('saveimgpop')}}">
+  <input type="hidden" name="url_enable" id="url_enable" value="{{url('enable')}}">
+
 <div class="wrapper">
 
   <header class="main-header">
@@ -69,7 +74,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Admin</b>TIME</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -99,7 +104,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li><a href="{{url('home')}}"><i class="fa fa-circle-o text-red"></i> <span>Home</span></a></li>
         <li><a href="{{url('banner')}}"><i class="fa fa-circle-o text-red"></i> <span>จัดการแบนเนอร์</span></a></li>
-        <li><a href="{{url('img')}}"><i class="fa fa-circle-o text-red"></i> <span>คลังรูปภาพ</span></a></li>
+        <li><a href="{{url('popshowe')}}"><i class="fa fa-circle-o text-red"></i> <span>จัดการแสดงวันสำคัญ</span></a></li>
         <li><a href="{{url('boutiuqes_admin')}}"><i class="fa fa-circle-o text-red"></i> <span>boutiuqes</span></a></li>
         <li><a href="{{url('contact_admin')}}"><i class="fa fa-circle-o text-yellow"></i> <span>Contact</span></a></li>
         <li><a href="{{url('blog_admin')}}"><i class="fa fa-circle-o text-yellow"></i> <span>Blog</span></a></li>

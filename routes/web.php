@@ -12,6 +12,18 @@ use Illuminate\Support\Facades\DB;
 |
  */
 
+Route::get('/popshowe', 'HomeController@indexpop')->name('popshowe');
+Route::get('/geteditimgpop/{id}', 'HomeController@geteditimgpop')->name('geteditimgpop');
+Route::post('/saveimgpop', 'HomeController@saveimgpop')->name('saveimgpop');
+Route::post('/enable', 'HomeController@enable')->name('enable');
+
+
+
+Route::get('/cookiespolicy', function () {
+ 
+
+    return view('nggtimepieces.cookiespolicy');
+});
 Route::get('/new', function () {
     $banner = DB::table('banner')
         ->where('active', '1')
@@ -29,9 +41,12 @@ Route::get('/', function () {
   $banner = DB::table('banner')
 ->where('active', '1')
 ->get();
-
+ $pop_show =  DB::table('pop_show')
+->where('status', '1')
+->first(); 
 $data = array(
 'banner' => $banner,
+ 'pop_show' => $pop_show 
 );
 
 return view('nggtimepieces.nggtimehome', $data); 

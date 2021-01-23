@@ -24,7 +24,7 @@
         </div>
         <div class="box">
           <div class="box-header">
-            <h3 class="box-title">blog</h3>
+            <h3 class="box-title">จัดการแบบเบอร์</h3>
             <table class="table table-hover">
               <tr>
                 <th>ชื่อ</th>
@@ -34,8 +34,16 @@
               </tr>
               @foreach ($banner as $item)
               <tr>
-              <td>{{$item->name_banner}}</td>
-              <td>{{$item->img}}</td>
+              <td>{{$item->name_banner}}
+              
+              
+              </td>
+              <td>  <img src="{{url('img/'.$item->img)}}" class="img-thumbnail" alt="Cinque Terre" width="40%">
+              <span class="text-danger">
+                *ห้ามลบรูปนี้ แก้ไขเท่านั้น
+              </span>
+              
+              </td>
               <td>{{$item->active}}</td>
                 <td>
                 <a href="{{url('banner_edit/'.Crypt::encrypt($item->id_banner))}}" class="btn btn-warning">แก้ไข</a>
@@ -90,4 +98,18 @@
 </section>
     </div>
 
+@endsection
+
+
+
+
+@section('script')
+
+
+
+
+
+
+
+    
 @endsection

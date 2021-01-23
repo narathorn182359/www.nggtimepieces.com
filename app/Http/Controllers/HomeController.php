@@ -507,6 +507,75 @@ public function edit_banner(Request $request,$id)
 
 }
 
+public function indexpop(){
+
+    $pop_show =  DB::table('pop_show')->get();
+    
+    $data = array(
+        'pop_show' => $pop_show
+    );
+    return view('admin/popshow/indexpop',$data);
+
+
+}
+
+
+public function geteditimgpop($id){
+
+    $data =  DB::table('pop_show')
+    ->where('id',$id)
+    ->first();
+
+
+    return response()->json($data);
+
+}
+
+public function  saveimgpop(Request $request){
+
+    $image_2 = $request->imgpopimg;
+    list($type, $image_2) = explode(';', $image_2);
+    list(, $image_2) = explode(',', $image_2);
+    $image_2 = base64_decode($image_2);
+    $imageName =  time().'.jpg';
+    file_put_contents('img/' . $imageName, $image_2);
+    DB::table('pop_show')
+    ->where('id',$request->id)
+    ->update([
+     'img' => $imageName
+    ]);
+
+
+    return Response()->json('200');
+
+}
+
+
+public function  enable(Request $request){
+
+
+       $data =  DB::table('pop_show')->where('id',$request->id)->first();
+
+       if($data->status == 1){
+        DB::table('pop_show')
+        ->where('id',$request->id)
+        ->update([
+            'status' => 0
+        ]);
+
+       }else{
+        DB::table('pop_show')
+        ->where('id',$request->id)
+        ->update([
+            'status' => 1
+        ]);
+       }
+
+
+
+    return Response()->json('200');
+
+}
 
 
 /*
