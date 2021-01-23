@@ -9,12 +9,22 @@
                 @if ($loop->first)
                     <div class="swiper-slide">
                          <div class="img-num">
+<<<<<<< Updated upstream
                             <label class="text-head" >ROLEX WATCHES</label>
+=======
+                            <label class="text-head" >Discover Rolex Watches</label>
+>>>>>>> Stashed changes
                            
                         </div> 
                         <div class="img-num_2">
                             <a href="https://nggtimepieces.com/rolex/" target="_top" >
+<<<<<<< Updated upstream
                                 <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
+=======
+                                <button class="cta_rolex btn-size">EXPLORE THE
+                                    COLLECTION
+                                </button>
+>>>>>>> Stashed changes
                             </a>
                         </div>
                          <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
