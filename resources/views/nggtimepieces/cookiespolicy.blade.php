@@ -19,10 +19,10 @@
     <p>
         While navigating on the Rolex section of our website, you may interact with an embedded website from
     
-    <a href="www.rolex.com"  style="color: #aa873f">www.rolex.com.</a>
+    <a href="https://www.rolex.com/"  style="color: #aa873f">www.rolex.com.</a>
          
         
-        In such case,    <a href="https://www.rolex.com/legal-notices/privacy-notice.html" style="color: #aa873f">Privacy Notice </a>     and   <a href="https://www.rolex.com/legal-notices/cookies.html" style="color: #aa873f">Cookies Policy</a>  of   <a href="www.rolex.com" style="color: #aa873f">www.rolex.com.</a>are sole applicable.
+        In such case,    <a href="https://www.rolex.com/legal-notices/privacy-notice.html" style="color: #aa873f">Privacy Notice </a>     and   <a href="https://www.rolex.com/legal-notices/cookies.html" style="color: #aa873f">Cookies Policy</a>  of   <a href="https://www.rolex.com/" style="color: #aa873f">www.rolex.com.</a>are sole applicable.
     </p>
     
     
