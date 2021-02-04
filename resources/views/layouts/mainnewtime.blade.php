@@ -38,6 +38,8 @@
     <meta name="twitter:image"
         content="https://nggtimepieces.com/rolex/wp-content/uploads/2019/10/keep_exploring_retailer_hp_0001_364x200.jpg">
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+
+      
 <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
@@ -143,7 +145,8 @@
     <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ url('ngg/css/flexslider.css') }}" type="text/css" media="screen" property="" />
     <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('nggtime/style2.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url('nggtime/stylenew.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url('css/new.css') }}" type="text/css" />
     <link rel='stylesheet' id='wp-block-library-css' href='{{ asset('ngg_new/style.min.css') }}' type='text/css'
         media='all' />
     <link rel='stylesheet' id='wpml-menu-item-0-css' href='{{ asset('ngg_new/style_2.css') }}' type='text/css'
@@ -239,9 +242,16 @@
 <script src="{{ asset('ngg_new/launch-5de25e657d80.min.js') }}" async></script>
 
 <body class="home page-template-default page page-id-40 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+ 
     <div id="page" class="site">
         <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-        <header id="masthead" class="site-header" style="background-image:url(/img/topbar.jpg);">
+        <header id="masthead" class="site-header" >
             <div class="wrapper-container">
                 <div class="container-fluid">
                     <div class="topbar d-flex justify-content-md-end">
@@ -260,7 +270,7 @@
                         <div class="logo-container row align-items-start">
                             <div class="col-md-4 offset-md-4 text-center logo-img">
                                 <a class="site-menu-button" href="#"></a>
-                                <a href=""><img src="https://www.nggtimepieces.com/img/logo-agency.png" width="80" height="80"  class="imghome"></a>
+                                <a href=""><img src="https://www.nggtimepieces.com/img/logo-agency.png"  style="max-width: 120px;"  class="imghome"></a>
                             </div>
                             <div class="col-md-4 retailer-watch text-md-right">
                                 <div class="rolex_frame"
@@ -487,8 +497,10 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://www.google.com/recaptcha/api.js?render=6Lc7nr4ZAAAAAPi6hZmc0StyvrjOM0OvD9jvxHzD"></script>
 <script>
-
+$(".loader").delay(1000).fadeOut("slow");
+  $("#overlayer").delay(1000).fadeOut("slow");	
       grecaptcha.ready(function() {
+
         grecaptcha.execute('6Lc7nr4ZAAAAAPi6hZmc0StyvrjOM0OvD9jvxHzD', {action: 'save_contact'}).then(function(token) {
            if(token){
                document.getElementById('recaptcha').value = token

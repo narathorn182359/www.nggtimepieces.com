@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88059e32b87be3ed19272b1098dc24de",
+    "content-hash": "9db605a4cc4f63c79701ec23dd225397",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1629,6 +1629,64 @@
                 "uuid"
             ],
             "time": "2020-02-21T04:36:14+00:00"
+        },
+        {
+            "name": "sebdesign/artisan-cloudflare",
+            "version": "v2.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebdesign/artisan-cloudflare.git",
+                "reference": "fd286c574a5956ccd0405c95a3e6b7707a87f1e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebdesign/artisan-cloudflare/zipball/fd286c574a5956ccd0405c95a3e6b7707a87f1e2",
+                "reference": "fd286c574a5956ccd0405c95a3e6b7707a87f1e2",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "illuminate/console": "^5.5|^6.0|^7.0|^8.0",
+                "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9|^1.0",
+                "orchestra/testbench": "^3.5|^4.0|^5.0|^6.0",
+                "phpunit/phpunit": "^7.0|^8.5|^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": "Sebdesign\\ArtisanCloudflare\\ServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sebdesign\\ArtisanCloudflare\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sébastien Nikolaou",
+                    "email": "info@sebdesign.eu",
+                    "homepage": "https://sebdesign.eu",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel artisan commands for Cloudflare",
+            "homepage": "https://github.com/sebdesign/artisan-cloudflare",
+            "keywords": [
+                "api",
+                "artisan",
+                "cloudflare",
+                "laravel"
+            ],
+            "time": "2020-12-10T00:07:58+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

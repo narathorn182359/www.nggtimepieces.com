@@ -2,29 +2,32 @@
 
 @section('content')
 
+    <div class="banner-phone" id="banner-phone">
+        <a href="https://nggtimepieces.com/rolex/"  >
+        <img src="{{url('img/phone.png')}}" alt="">
+        </a>
 
-    <div class="swiper-container">
+     <div class="row justify-content-center ">
+        <label class="text-head" style="font-size: 25px; margin-top:8px" >ROLEX WATCHES</label>
+        <a href="https://nggtimepieces.com/rolex/"  >
+            <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
+        </a>
+     </div>
+        
+      
+    </div>
+    <div class="swiper-container "  id="foo_label">
         <div class="swiper-wrapper">
             @foreach ($banner as $item)
                 @if ($loop->first)
                     <div class="swiper-slide">
                          <div class="img-num">
-<<<<<<< Updated upstream
                             <label class="text-head" >ROLEX WATCHES</label>
-=======
-                            <label class="text-head" >Discover Rolex Watches</label>
->>>>>>> Stashed changes
                            
                         </div> 
                         <div class="img-num_2">
-                            <a href="https://nggtimepieces.com/rolex/" target="_top" >
-<<<<<<< Updated upstream
+                            <a href="https://nggtimepieces.com/rolex/"  >
                                 <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
-=======
-                                <button class="cta_rolex btn-size">EXPLORE THE
-                                    COLLECTION
-                                </button>
->>>>>>> Stashed changes
                             </a>
                         </div>
                          <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
@@ -51,6 +54,7 @@
 
     </div>
     <br>
+    <hr class="phone-hr"> 
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
@@ -63,7 +67,7 @@
 
         </div>
         <br>
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-6">
                 <img src="{{ url('ngg/images/g2.jpg') }}" alt="" width="95%" class="img-info" />
             </div>
@@ -72,7 +76,7 @@
             <div class="col-md-6">
                 <br><br>
        
-<label style="font-size: 25px">
+<label  class="texts">
     A luxury wristwatch is something much more than a simple timepiece. It is a piece of art, a true
     exclusiveness and extreme reliability and accuracy.
 
@@ -84,10 +88,10 @@
 
         </div>
 
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-6">
                 <br>
-                <label style="font-size: 25px">
+                <label class="texts">
                     A luxury wristwatch is a great way to show your status, your taste, your style. Even in spite of
                     constantly developing technologies, exclusive watches will always be in demand.
                 </label>
@@ -101,24 +105,21 @@
 
         </div>
     </div>
-    <br><br><br>
-    <div class="parallax">
 
-        <div class="caption">
-            <span style="font-size:25px;color: #ffffff;"> LUXURY TIMEPIECES DESTINATION</span>
-        </div>
-    </div>
-    <br><br>
+  
+
+          
+      
+  
+ 
     <div class="container">
-        <div class="row text-center">
-            <div class="col-md-12">
-                <h2 class="text-center">Service center</h2>
-
-                <br>
-
+        <div class="row justify-content-center py-md-3">
+            <div class="form-group">
+                <span  style="font-size:25px; margin-top:12px">SERVICE CENTER</span>
             </div>
-
+      
         </div>
+     
         <div class="row">
             <div class="col-md-6">
                 <a href="{{ url('/contact') }}" style="color: black">
@@ -174,6 +175,7 @@
 
 @section('javascript')
 <script>
+
   var swiper = new Swiper('.swiper-container', {
       spaceBetween: 30,
       centeredSlides: true,

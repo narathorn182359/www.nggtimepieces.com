@@ -12,6 +12,10 @@ return [
     | any other location as required by the application or its packages.
     |
     */
+    'cdn' => array(
+    
+        "nggtimepieces-17eb2.kxcdn.com" => ""
+),
 
     'name' => env('APP_NAME', 'Laravel'),
 
@@ -163,7 +167,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        Sebdesign\ArtisanCloudflare\ServiceProvider::class,
         /*
          * Package Service Providers...
          */
