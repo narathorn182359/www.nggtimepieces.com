@@ -4,7 +4,7 @@
 
     <div class="banner-phone" id="banner-phone">
         <a href="https://nggtimepieces.com/rolex/"  >
-        <img src="{{url('img/phone.png')}}" alt="">
+        <img src="{{url('img/phone.jpg')}}" alt="">
         </a>
 
      <div class="row justify-content-center ">

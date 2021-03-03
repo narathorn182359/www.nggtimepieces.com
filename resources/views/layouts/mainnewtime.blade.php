@@ -139,24 +139,24 @@
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="{{ url('ngg/css/flexslider.css') }}" type="text/css" media="screen" property="" />
-    <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('ngg/css/flexslider.css') }}" type="text/css" media="screen" property="" />
-    <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('ngg/css/flexslider.css') }}" type="text/css" media="screen" property="" />
-    <link rel="stylesheet" href="{{ url('css/jquery.fancybox.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('nggtime/stylenew.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ url('css/new.css') }}" type="text/css" />
-    <link rel='stylesheet' id='wp-block-library-css' href='{{ asset('ngg_new/style.min.css') }}' type='text/css'
+    <link rel="stylesheet" href="{{ asset('ngg/css/flexslider.css?v=').time() }}'" type="text/css" media="screen" property="" />
+    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css?v=').time() }}'" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('ngg/css/flexslider.css?v=').time() }}'" type="text/css" media="screen" property="" />
+    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css?v=').time() }}'" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('ngg/css/flexslider.css?v=').time() }}'" type="text/css" media="screen" property="" />
+    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css?v=').time() }}'" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('nggtime/stylenew.css?v=').time() }}'" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('css/new.css?v=').time() }}'" type="text/css" />
+    <link rel='stylesheet' id='wp-block-library-css' href='{{ asset('ngg_new/style.min.css?v=').time() }}' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='wpml-menu-item-0-css' href='{{ asset('ngg_new/style_2.css') }}' type='text/css'
+    <link rel='stylesheet' id='wpml-menu-item-0-css' href='{{ asset('ngg_new/style_2.css?v=').time() }}' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='invink-style-css' href='{{ asset('ngg_new/style_3.css') }}' type='text/css'
+    <link rel='stylesheet' id='invink-style-css' href='{{ asset('ngg_new/style_3.css?v=').time() }}' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='bootstrap-style-css' href='{{ asset('ngg_new/bootstrap.min.css') }}' type='text/css'
+    <link rel='stylesheet' id='bootstrap-style-css' href='{{ asset('ngg_new/bootstrap.min.css?v=').time() }}' type='text/css'
         media='all' />
-    <link rel='stylesheet' id='custom-css-css' href='{{ asset('ngg_new/custom2.css') }}' type='text/css' media='all' />
-    <link rel='stylesheet' id='responsive-css-css' href='{{ asset('ngg_new/responsive.css') }}' type='text/css'
+    <link rel='stylesheet' id='custom-css-css' href='{{ asset('ngg_new/custom2.css?v=').time() }}' type='text/css' media='all' />
+    <link rel='stylesheet' id='responsive-css-css' href='{{ asset('ngg_new/responsive.css?v=').time() }}' type='text/css'
         media='all' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -215,11 +215,11 @@
     <!--[if lt IE 9]>
 <link rel='stylesheet' id='vc_lte_ie9-css'  href='https://nggtimepieces.com/rolex/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.5' type='text/css' media='screen' />
 <![endif]-->
-    <link rel='stylesheet' id='js_composer_front-css' href='{{ asset('ngg_new/js_composer.min.css') }}' type='text/css'
+    <link rel='stylesheet' id='js_composer_front-css' href='{{ asset('ngg_new/js_composer.min.css?v=').time() }}' type='text/css'
         media='all' />
-    <script type='text/javascript' src='{{ asset('ngg_new/rlx-corner.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/jquery.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/jquery-migrate.min.js') }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/rlx-corner.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/jquery.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/jquery-migrate.min.js?v=').time() }}'></script>
     <meta name="generator" content="WPML ver:4.2.9 stt:1,52;" />
     <style type="text/css">
         .recentcomments a {
@@ -239,7 +239,7 @@
         </style>
     </noscript>
 </head>
-<script src="{{ asset('ngg_new/launch-5de25e657d80.min.js') }}" async></script>
+<script src="{{ asset('ngg_new/launch-5de25e657d80.min.js?v=').time() }}'" async></script>
 
 <body class="home page-template-default page page-id-40 wpb-js-composer js-comp-ver-6.0.5 vc_responsive">
     <div id="overlayer"></div>
@@ -459,12 +459,12 @@
     </footer>
     </div><!-- #page -->
  
-    <script type='text/javascript' src='{{ asset('ngg_new/navigation.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/owl.carousel.min.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/custom.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/skip-link-focus-fix.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/wp-embed.min.js') }}'></script>
-    <script type='text/javascript' src='{{ asset('ngg_new/launch-5de25e657d80.min.js') }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/navigation.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/owl.carousel.min.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/custom.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/skip-link-focus-fix.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/wp-embed.min.js?v=').time() }}'></script>
+    <script type='text/javascript' src='{{ asset('ngg_new/launch-5de25e657d80.min.js?v=').time() }}'></script>
     <script>
         function resizeIframe(obj) {
             obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
@@ -474,12 +474,12 @@
         };
 
     </script>
-    <script type="text/javascript" src="{{ url('ngg/js/jquery-2.1.4.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('ngg/js/jquery-2.1.4.min.js?v=').time() }}"></script>
 
-    <link rel="stylesheet" type="text/css" href="{{ url('css/cookieconsent.min.css') }}" />
-    <script src="{{ url('js/cookieconsent.min.js') }}"></script>
-    <script type="text/javascript" src="{{ url('js/jquery.fancybox.js') }}"></script>
-    <script src="{{ url('js/script.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/cookieconsent.min.css?v=').time() }}" />
+    <script src="{{ asset('js/cookieconsent.min.js?v=').time() }}"></script>
+    <script type="text/javascript" src="{{ asset('js/jquery.fancybox.js?v=').time() }}"></script>
+    <script src="{{ asset('js/script.js?v=').time() }}"></script>
 
 </body>
 <script type="text/javascript">
