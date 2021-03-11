@@ -17,8 +17,6 @@ Route::get('/geteditimgpop/{id}', 'HomeController@geteditimgpop')->name('getedit
 Route::post('/saveimgpop', 'HomeController@saveimgpop')->name('saveimgpop');
 Route::post('/enable', 'HomeController@enable')->name('enable');
 
-
-
 Route::get('/cookiespolicy', function () {
  
 
@@ -38,6 +36,9 @@ Route::get('/new', function () {
 
 Route::get('/', function () {
 // dd(bcrypt('0000'));
+$bannermobile = DB::table('mobile')
+->where('id', '1')
+->first();
   $banner = DB::table('banner')
 ->where('active', '1')
 ->get();
@@ -46,7 +47,8 @@ Route::get('/', function () {
 ->first(); 
 $data = array(
 'banner' => $banner,
- 'pop_show' => $pop_show 
+ 'pop_show' => $pop_show ,
+ 'bannermobile' =>$bannermobile
 );
 
 return view('nggtimepieces.nggtimehome', $data); 
@@ -196,11 +198,14 @@ Route::post('/edit_blog/{id}', 'HomeController@edit_blog')->name('edit_blog');
 Route::post('/delete_blog', 'HomeController@delete_blog')->name('delete_blog');
 
 Route::get('/banner', 'HomeController@banner')->name('banner');
+Route::get('/editmobile/{id}', 'HomeController@editmobile')->name('editmobile');
+
 Route::get('/add_banner', 'HomeController@add_banner')->name('add_banner');
 Route::post('/save_banner', 'HomeController@save_banner')->name('save_banner');
 Route::get('/banner_edit/{id}', 'HomeController@edid_banner')->name('edid_banner');
 Route::post('/edit_banner/{id}', 'HomeController@edit_banner')->name('edit_banner');
 Route::post('delete_banner', 'HomeController@delete_banner')->name('delete_banner');
+Route::post('saveimgmobile', 'HomeController@saveimgmobile')->name('saveimgmobile');
 
 ////
 

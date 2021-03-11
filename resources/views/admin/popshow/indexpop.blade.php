@@ -83,16 +83,9 @@
             </div>
             <form id="form-save-pop">
             <div class="modal-body">
-          
             <input type="hidden" name="id" id="id"  >
-             
-                
-                    <input type="file" name="imgpop" id="imgpop"  accept="image/*"  onchange="encodeImageFileAsURL1(this)">
-
-               
-                <input type="hidden" name="imgpopimg" id="imgpopimg" required >
-              
-          
+            <input type="file" name="imgpop" id="imgpop"  accept="image/*"  onchange="encodeImageFileAsURL1(this)">
+            <input type="hidden" name="imgpopimg" id="imgpopimg" required >
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>

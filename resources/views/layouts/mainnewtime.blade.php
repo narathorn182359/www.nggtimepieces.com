@@ -270,7 +270,7 @@
                         <div class="logo-container row align-items-start">
                             <div class="col-md-4 offset-md-4 text-center logo-img">
                                 <a class="site-menu-button" href="#"></a>
-                                <a href=""><img src="https://www.nggtimepieces.com/img/logo-agency.png"  style="max-width: 120px;"  class="imghome"></a>
+                                <a href=""><img src="https://www.nggtimepieces.com/img/logo-agency.png"  style="max-width: 100px;"  class="imghome"></a>
                             </div>
                             <div class="col-md-4 retailer-watch text-md-right">
                                 <div class="rolex_frame"

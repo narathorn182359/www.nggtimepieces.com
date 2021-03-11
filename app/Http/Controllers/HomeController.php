@@ -391,12 +391,12 @@ public function save_boutiuqes(Request $request){
 
 public function banner()
 {
-
-   
     $banner  = DB::table('banner')->get();
-
+    $mobile  = DB::table('mobile')->get();
+    
      $data = array(
-         'banner'  => $banner
+         'banner'  => $banner,
+         'mobile' => $mobile
        );
 
     return view('admin.banner.banner_admin',$data);
@@ -404,7 +404,17 @@ public function banner()
 }
 
 
+public function editmobile($id){
 
+    $data =  DB::table('mobile')
+    ->where('id',$id)
+    ->first();
+
+
+    return response()->json($data);
+
+
+}
 public function add_banner()
 {
 
@@ -414,6 +424,28 @@ public function add_banner()
     return view('admin.banner.banner_add');
 
 }
+
+
+public function  saveimgmobile(Request $request){
+
+    $image_2 = $request->imgmobileimg;
+    list($type, $image_2) = explode(';', $image_2);
+    list(, $image_2) = explode(',', $image_2);
+    $image_2 = base64_decode($image_2);
+    $imageName =  time().'.jpg';
+    file_put_contents('img/' . $imageName, $image_2);
+    DB::table('mobile')
+    ->where('id',$request->id)
+    ->update([
+     'img' => $imageName
+    ]);
+
+
+    return Response()->json('200');
+
+}
+
+
 
 public function save_banner(Request $request)
 {

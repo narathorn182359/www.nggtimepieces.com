@@ -4,7 +4,10 @@
 
     <div class="banner-phone" id="banner-phone">
         <a href="https://nggtimepieces.com/rolex/"  >
-        <img src="{{url('img/phone.jpg')}}" alt="">
+            @isset($bannermobile)
+            <img src="{{url('img/'.$bannermobile->img)}}" alt="">
+            @endisset
+    
         </a>
 
      <div class="row justify-content-center ">

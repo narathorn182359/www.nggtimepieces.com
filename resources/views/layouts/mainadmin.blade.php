@@ -65,7 +65,9 @@
   <input type="hidden" name="url_geteditimgpop" id="url_geteditimgpop" value="{{url('geteditimgpop')}}">
   <input type="hidden" name="url_saveimgpop" id="url_saveimgpop" value="{{url('saveimgpop')}}">
   <input type="hidden" name="url_enable" id="url_enable" value="{{url('enable')}}">
-
+  <input type="hidden" name="url_editmobile" id="url_editmobile" value="{{url('editmobile')}}">
+  <input type="hidden" name="url_saveimgmobile" id="url_saveimgmobile" value="{{url('saveimgmobile')}}">
+  
 <div class="wrapper">
 
   <header class="main-header">
