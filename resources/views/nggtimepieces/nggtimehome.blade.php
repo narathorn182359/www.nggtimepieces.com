@@ -11,8 +11,8 @@
         </a>
 
      <div class="row justify-content-center ">
-        <label class="text-head" style="font-size: 25px; margin-top:8px" >ROLEX WATCHES</label>
-        <a href="https://nggtimepieces.com/rolex/"  >
+        <label class="text-head" style="font-size: 25px; margin-top:8px" >NEW WATCHES 2021 </label>
+        <a href="https://nggtimepieces.com/rolex/new-watches-2021/"  >
             <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
         </a>
      </div>
@@ -25,11 +25,11 @@
                 @if ($loop->first)
                     <div class="swiper-slide">
                          <div class="img-num">
-                            <label class="text-head" >ROLEX WATCHES</label>
+                            <label class="text-head" >NEW WATCHES 2021  </label>
                            
                         </div> 
                         <div class="img-num_2">
-                            <a href="https://nggtimepieces.com/rolex/"  >
+                            <a href="https://nggtimepieces.com/rolex/new-watches-2021/"  >
                                 <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
                             </a>
                         </div>
