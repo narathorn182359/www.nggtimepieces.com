@@ -51,7 +51,7 @@ $data = array(
  'bannermobile' =>$bannermobile
 );
 
-return view('nggtimepieces.nggtimehome', $data); 
+return view('app.index', $data); 
 });
 
 Route::get('i/index', function () {
@@ -94,9 +94,7 @@ Route::get('/trending', function () {
     return view('nggtimepieces.trending', $data);
 });
 
-Route::get('/rolex', function () {
-    return view('nggtimepieces.rolex');
-});
+
 
 Route::get('/heritage', function () {
     return view('nggtimepieces.heritage');
@@ -237,9 +235,7 @@ Route::get('/privacy_policy', function () {
     return view('nggtimepicecesthai.privacy_policy');
 });
 
-Route::get('/rolex', function () {
-    return view('nggtimepicecesthai.rolex');
-});
+
 
 Route::get('th/detailblog/{id}', function ($id) {
     $id_de = Crypt::decrypt($id);

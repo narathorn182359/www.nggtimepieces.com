@@ -1,7 +1,12 @@
+
+.banner-phone{
+  margin-top: 0px;
+}
 @media only screen and (min-width: 480px){
     .menu-item-has-children:hover ul {
       display: block !important;
     }
+    
   }
   @media only screen and (min-width : 480px) and (max-width : 768px){
     .inner-padding-left {

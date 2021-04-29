@@ -4,12 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-body{
-	padding:0;
-	margin:0;
-	background:rgba(209, 208, 208, 0.322);
-	
-}
+
 a{
 	text-decoration:none;
 }
@@ -1154,11 +1149,7 @@ ul.tag li a:hover{
 	 color: #FFAC3A;
 }
 /*-- copyright --*/
-.copyright{
-    padding: 2em 0;
-    background: #000;
-    text-align: center;
-}
+
 .w3agile-list ul{
 	margin:0;
 	padding:0;

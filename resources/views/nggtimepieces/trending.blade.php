@@ -1,4 +1,4 @@
-@extends('layouts.mainnewtime')
+@extends('layouts.app')
 
 @section('content')
 <br>
