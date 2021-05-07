@@ -178,8 +178,8 @@
             <div class="col-md-4 offset-md-4 text-center">
                 <div class="row">
                     <div class="text-center ">
-                        <a class="navbar-brand" href="/"><img src="{{ asset('img/logo-agency.png') }}" width="25%"
-                                alt="" srcset=""></a>
+                        <a class="navbar-brand" href="/"><img src="{{ asset('img/logo-agency.png') }}"
+                                alt="" srcset=""   style="max-width: 22%;"></a>
                     </div>
 
                 </div>

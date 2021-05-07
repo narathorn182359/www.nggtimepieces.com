@@ -24,8 +24,16 @@
         
         In such case,    <a href="https://www.rolex.com/legal-notices/privacy-notice.html" style="color: #aa873f">Privacy Notice </a>     and   <a href="https://www.rolex.com/legal-notices/cookies.html" style="color: #aa873f">Cookies Policy</a>  of   <a href="https://www.rolex.com/" style="color: #aa873f">www.rolex.com.</a>are sole applicable.
     </p>
+    <br><br>
+   
+    <p>
+        ในขณะที่สำรวจในส่วนของ Rolex ในเว็บไซต์ของเราคุกกี้บางตัวจะถูกควบคุมโดย ROLEX SA ซึ่งใช้    <a href="https://www.rolex.com/legal-notices/cookies.html" style="color: #aa873f">นโยบายคุกกี้</a>        ต่อไปนี้
+
     
     
+         
+
+    </p>
 
     <br><br>
    </div>

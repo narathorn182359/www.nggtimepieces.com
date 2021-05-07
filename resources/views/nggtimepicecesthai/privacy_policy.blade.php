@@ -33,7 +33,7 @@
         In case you have any questions, suggestions, or comments regarding the Privacy Policy or to comply with this Privacy Policy, NGG Enterprise Co., Ltd. is pleased to respond to your queries, comments and suggestions to improve the service. You can contact NGG Enterprise Co., Ltd. at the address shown below.<br />
         <br />
         <strong>Rolex Section</strong><br />
-        While navigating on the Rolex section of our website, you may interact with an embedded website from&nbsp;<a href="https://www.rolex.com/">www.rolex.com</a>. In such case,&nbsp;<a href="https://www.rolex.com/footer/privacy-notice.html">Privacy Notice</a>&nbsp;and&nbsp;<a href="https://www.rolex.com/footer/cookies.html">Cookies</a>&nbsp;Policy of&nbsp;<a href="https://www.rolex.com/">www.rolex.com</a>&nbsp;are sole applicable.<br />
+        While navigating on the Rolex section of our website, you may interact with an embedded website from&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>. In such case,&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/privacy-notice.html">Privacy Notice</a>&nbsp;and&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/cookies.html">Cookies</a>&nbsp;Policy of&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>&nbsp;are sole applicable.<br />
         <br />
         <strong>NGG Enterprise Co., Ltd.</strong><br />
         428 Ratchadapisek Rd., Chong Nonsi, Yan Nawa, Bangkok 10120<br />
@@ -74,7 +74,7 @@
         ในกรณีที่ท่านมีข้อสงสัย ข้อเสนอแนะ หรือข้อติชมใดๆ เกี่ยวกับนโยบายความเป็นส่วนตัวหรือการปฏิบัติตามนโยบายความเป็นส่วนตัวฉบับนี้ บริษัท เอ็นจีจี เอ็นเตอร์ไพรส์ จำกัด ยินดีที่จะตอบข้อสงสัย รับฟังข้อเสนอแนะ และคำติชมทั้งหลาย อันจะเป็นประโยชน์ต่อการปรับปรุงการให้บริการของบริษัท เอ็นจีจี เอ็นเตอร์ไพรส์ จำกัด ต่อไป โดยท่านสามารถติดต่อกับบริษัท เอ็นจีจี เอ็นเตอร์ไพรส์ จำกัดตามที่ปรากฏข้างล่างนี้<br />
         <br />
         <strong>ส่วนของ Rolex</strong><br />
-        ในขณะที่เปิดเว็บไซต์ของเราในส่วนของ Rolex คุณอาจจะมีการใช้งานกับ&nbsp;<a href="https://www.rolex.com/">www.rolex.com</a>&nbsp;ที่ถูกฝังในเว็บไซต์ของเรา ในกรณีเช่น&nbsp;<a href="https://www.rolex.com/footer/privacy-notice.html">ประกาศคุ้มครองข้อมูลส่วนตัว</a>&nbsp;และ&nbsp;<a href="https://www.rolex.com/footer/cookies.html">คุ้กกี้</a>&nbsp;นโยบายของ&nbsp;<a href="https://www.rolex.com/">www.rolex.com</a>&nbsp;มีผลบังคับใช้งาน<br />
+        ในขณะที่เปิดเว็บไซต์ของเราในส่วนของ Rolex คุณอาจจะมีการใช้งานกับ&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>&nbsp;ที่ถูกฝังในเว็บไซต์ของเรา ในกรณีเช่น&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/privacy-notice.html">ประกาศคุ้มครองข้อมูลส่วนตัว</a>&nbsp;และ&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/cookies.html">คุ้กกี้</a>&nbsp;นโยบายของ&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>&nbsp;มีผลบังคับใช้งาน<br />
         <br />
         <strong>บริษัท เอ็นจีจี เอ็นเตอร์ไพรส์ จำกัด</strong><br />
         ที่อยู่ 428 ถนนรัชดาภิเษก แขวงช่องนนทรี เขตยานนาวา กรุงเทพมหานคร 10120<br />
