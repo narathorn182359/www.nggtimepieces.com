@@ -64,9 +64,16 @@
         <strong>12. Governing Law &amp; Jurisdiction.</strong><br />
         These Terms will be governed and construed in accordance with the laws of Thailand, and you submit to the non-exclusive jurisdiction of the Thai courts.&rdquo;<br />
         <br />
-        <strong>Rolex Section</strong><br />
+        <strong>Rolex Section</strong>
+        <br>
+        {{-- <br />
         While navigating on the Rolex section of our website, you may interact with an embedded website from&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>. In such case,&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/terms-of-use.html">Terms of Use</a>,&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/privacy-notice.html">Privacy Notice</a>&nbsp;and&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/cookies.html">Cookies</a>&nbsp;Policy of&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>&nbsp;are sole applicable.</p>
-        
+      
+        <p> --}}
+         While navigating on the Rolex section of our website, some cookies are controlled by ROLEX SA which 
+         applies the following <a href="https://www.rolex.com/legal-notices/cookies.html" style="color: #aa873f">Cookies Policy</a>.
+         
+        </p>
         <p><br />
         &nbsp;</p>
         
@@ -129,10 +136,16 @@
         <strong>12. กฎหมายที่ใช้บังคับและเขตอำนาจศาล</strong><br />
         ข้อตกลงนี้จะอยู่ในบังคับและการตีความตามกฎหมายของประเทศไทย และคุณยอมรับเขตอำนาจแบบไม่จำกัดแต่เพียงผู้เดียวของศาลไทย<br />
         <br />
-        <strong>ส่วนของ Rolex</strong><br />
+        <strong>ส่วนของ Rolex</strong>{{-- <br />
         ในขณะที่เปิดเว็บไซต์ของเราในส่วนของ Rolex คุณอาจจะมีการใช้งานกับ&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/" >www.rolex.com</a>&nbsp;ที่ถูกฝังในเว็บไซต์ของเรา ในกรณีเช่น&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/terms-of-use.html">ข้อตกลงการใช้งาน</a>&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/privacy-notice.html">ประกาศคุ้มครองข้อมูลส่วนตัว</a>&nbsp;และ&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/footer/cookies.html">คุ้กกี้</a>&nbsp;นโยบายของ&nbsp;<a style="color: #aa873f"href="https://www.rolex.com/">www.rolex.com</a>&nbsp;มีผลบังคับใช้งาน</p>
         
-
+        <br> --}}
+       
+         <p>
+             ในขณะที่สำรวจในส่วนของ Rolex ในเว็บไซต์ของเราคุกกี้บางตัวจะถูกควบคุมโดย ROLEX SA ซึ่งใช้    <a href="https://www.rolex.com/legal-notices/cookies.html" style="color: #aa873f">นโยบายคุกกี้</a>ต่อไปนี้
+         </p>
+     
+         <br><br>
 
 
    </div>

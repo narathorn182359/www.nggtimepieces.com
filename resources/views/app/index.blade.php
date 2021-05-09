@@ -10,7 +10,7 @@
     </a>
 
  <div class=" justify-content-center  text-center ">
-    <label class="text-head" style="font-size: 25px; margin-top:8px" > Rolex watches </label> <br>
+    <label class="text-head" style="font-size: 25px; margin-top:8px" > ROLEX WATCHES </label> <br>
    
  </div>
  <div class=" row justify-content-center ">
@@ -28,7 +28,7 @@
             @if ($loop->first)
                 <div class="swiper-slide">
                      <div class="img-num">
-                        <label class="text-head" >Rolex watches</label>
+                        <label class="text-head" >ROLEX WATCHES</label>
                        
                     </div> 
                     <div class="img-num_2">
