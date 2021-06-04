@@ -32,8 +32,8 @@
                        
                     </div> 
                     <div class="img-num_2">
-                        <a href="https://nggtimepieces.com/rolex"  >
-                            <button class="cta_rolex btn-size"> EXPLORE THE COLLECTION </button>
+                        <a href="https://nggtimepieces.com/rolex"  class="cta_rolex btn-size"  style="color:white" >
+                           EXPLORE THE COLLECTION 
                         </a>
                     </div>
                      <img src="{{ url('img/' . $item->img) }}" alt="Los Angeles" style="width:100%;">
