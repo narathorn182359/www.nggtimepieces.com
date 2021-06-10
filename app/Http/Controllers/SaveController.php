@@ -78,17 +78,15 @@ class SaveController extends Controller
 
         );
 
-    /*     Mail::send('emails.contact', $data, function ($message_send) use ($data) {
+         Mail::send('emails.contact', $data, function ($message_send) use ($data) {
             $message_send->from('noreply@nggtimepieces.com', 'Rolex - NGGTimepiece.com');
             $message_send->to('info@nggtimepieces.com');
             $message_send->subject($data['subject']);
         });
- */
-        Mail::send('emails.contact', $data, function ($message_send) use ($data) {
-            $message_send->from('noreply@nggtimepieces.com', 'Rolex - NGGTimepiece.com');
-            $message_send->to('narathorn@nioachievers.com');
-            $message_send->subject($data['subject']);
-        });
+ 
+      
+
+
         Mail::send('emails.reply', $data, function ($message_send) use ($data) {
             $message_send->from('noreply@nggtimepieces.com', 'Rolex - NGGTimepiece.com');
             $message_send->to($data['email']);
